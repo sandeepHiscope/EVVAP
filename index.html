@@ -7,37 +7,48 @@
   <title>Home page</title>
 </head>
 <style>
-  
-  .home-page,
-  .home-page * {
+  /* Reset default browser padding and margin */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+  .home-page{
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
   }
 
   .home-page {
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: flex-start;
     position: relative;
   }
 
+
   .home-page2 {
     background: #ffffff;
-    flex-shrink: 0;
-    width: 1440px;
-    height: 1981px;
+    width: 100vw;
+    height: 1980px;
     position: relative;
-    overflow: hidden;
   }
 
   .frame-158 {
     padding: 10px;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 0px;
     align-items: flex-start;
     justify-content: flex-start;
     width: 1453px;
@@ -47,19 +58,16 @@
   }
 
   .image-6 {
-    flex-shrink: 0;
-    width: 1433px;
+    width: 100vw;
     height: 597px;
     position: relative;
-    object-fit: cover;
-    opacity: 20%;
+    opacity: 0%;
   }
 
   .rectangle-8 {
-    width: 1440px;
+    width: 100vw;
     height: 389px;
     position: absolute;
-    left: calc(50% - 720px);
     top: calc(50% - 868.5px);
     object-fit: cover;
     opacity: 100%;
@@ -196,10 +204,10 @@
 
   .rectangle-10 {
     background: linear-gradient(to right, rgb(0, 56, 130), rgb(0, 73, 170), rgba(0, 98, 227, 0.5));
-    width: 1440px;
+    width: 97.5vw;
     height: 90px;
+    margin: 10px;
     position: absolute;
-    left: calc(50% - 720px);
     top: calc(50% - -117.5px);
     border-radius: 6px;
   }
@@ -211,8 +219,8 @@
     font-size: 32px;
     font-weight: 400;
     position: absolute;
-    left: calc(50% - 328px);
-    top: calc(50% - -133.5px);
+    top:57.5%;
+    left:5%;
   }
 
   .icon-orange-accessible-1 {
@@ -325,7 +333,7 @@
     justify-content: center;
     position: absolute;
     right: 120px;
-    top: calc(50% - -144.5px);
+    top: 57.5%;
 
     width: 120px;
   }
@@ -338,10 +346,9 @@
   .header {
     background: #dfdfdfaf;
     border-radius: 7px 7px 0 0;
-    width: 1440px;
+    width: 100vw;
     height: 126px;
     position: absolute;
-    left: calc(50% - 720px);
     top: calc(50% - 990.5px);
     overflow: hidden;
   }
@@ -495,7 +502,7 @@
     width: 110px;
     height: 30px;
     position: absolute;
-    left: 1158px;
+    left: 81%;
     top: 17px;
 
     padding-left: 9px;
@@ -509,7 +516,7 @@
     width: 110px;
     height: 30px;
     position: absolute;
-    left: 1291px;
+    left: 90%;
     top: 17px;
   }
 
@@ -540,7 +547,7 @@
     width: 110px;
     height: 40px;
     position: absolute;
-    left: 1293px;
+    left: 90%;
     top: 71px;
   }
 
@@ -569,17 +576,16 @@
 
   .fotter {
     width: 100%;
-    height: 129px;
+    height: 130px;
     position: static;
   }
 
   .fotter2 {
     background: #e2e2e4;
-    width: 1440px;
+    width: 100%;
     height: 130px;
     position: absolute;
-    left: calc(50% - 720px);
-    top: calc(50% - -861.5px);
+    bottom: 0;
     overflow: hidden;
     border-radius: 0 0 10px 10px;
   }
@@ -591,7 +597,24 @@
     left: 11px;
     top: 2px;
     object-fit: cover;
+
   }
+  #tooltip{
+    background-color: #010101;
+    color: #e2e2e4;
+    position: absolute;
+    top: 10px;
+    width: 75px;
+    padding: 1px;
+    border-radius: 5px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  .evaap-logo-2-1-ai-brush-removebg-8-nqsg-4-zr-222 :hover #tooltip{
+    visibility:visible;
+    opacity: 1;
+}
 
   .no-179-down-street-new-york-xxxxxxxxxxx-usa-600096 {
     color: #000000;
@@ -846,16 +869,19 @@
     height: 100%;
   }
 
-  .twitter {
+
+
+
+
+.twitter {
     width: 40px;
     height: 40px;
     position: absolute;
-    left: calc(50% - -554px);
-    top: calc(50% - -909.5px);
+    right: 155px;
+    bottom: 44px;
   }
 
   .twitter2 {
-    border-radius: 100px;
     width: 100%;
     height: 100%;
     position: absolute;
@@ -865,6 +891,7 @@
     top: 0%;
     object-fit: cover;
   }
+
 
   .image-7 {
     width: 1440px;
@@ -1005,7 +1032,8 @@
         <a href="./index.html">
           <img class="evaap-logo-2-1-ai-brush-removebg-8-nqsg-4-zr-22"
             src="./Home page/images/EVAAP_LOGO_2.1-ai-brush-removebg-8nqsg4zr.png" />
-        </a>
+
+          </a>
 
         <div class="home">
           <a href="./index.html">
@@ -1061,7 +1089,8 @@
           <a href="./index.html">
             <img class="evaap-logo-2-1-ai-brush-removebg-8-nqsg-4-zr-222"
               src="./Home page/images/EVAAP_LOGO_2.1-ai-brush-removebg-8nqsg4zr.png" />
-          </a>
+              <p id="tooltip">Go To Top</p>
+            </a>
           <a href="https://maps.app.goo.gl/AZg1Rxsktv8cs1Nq5">
             <div class="no-179-down-street-new-york-xxxxxxxxxxx-usa-600096">
               prashanthi hills
