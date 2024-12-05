@@ -7,34 +7,48 @@
   <title>Home page</title>
 </head>
 <style>
-  .home-page,
-  .home-page * {
+  /* Reset default browser padding and margin */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+  .home-page{
     box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
   }
 
   .home-page {
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: flex-start;
     position: relative;
   }
 
+
   .home-page2 {
-    background: #fff6f6;
-    flex-shrink: 0;
-    width: 1440px;
-    height: 1981px;
+    background: #ffffff;
+    width: 100vw;
+    height: 1980px;
     position: relative;
-    overflow: hidden;
   }
 
   .frame-158 {
     padding: 10px;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 0px;
     align-items: flex-start;
     justify-content: flex-start;
     width: 1453px;
@@ -44,24 +58,21 @@
   }
 
   .image-6 {
-    flex-shrink: 0;
-    width: 1433px;
+    width: 100vw;
     height: 597px;
     position: relative;
-    object-fit: cover;
-    opacity: 20%;
+    opacity: 0%;
   }
 
   .rectangle-8 {
-    background: linear-gradient(to left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      linear-gradient(to left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
-    width: 1440px;
+    width: 100vw;
     height: 389px;
     position: absolute;
-    left: calc(50% - 720px);
     top: calc(50% - 868.5px);
     object-fit: cover;
-    opacity: 50%;
+    opacity: 100%;
+                                        /* we change blur of the banner here */
+    filter: blur(2px);
   }
 
   .verify-with-evaap-trusted-verification {
@@ -73,14 +84,14 @@
   }
 
   .verify-with-evaap-trusted-verification-span {
-    color: #fffafa;
+    color: #ffffff;
     font-family: "OpenSans-Regular", sans-serif;
     font-size: 32px;
     font-weight: 400;
   }
 
   .verify-with-evaap-trusted-verification-span2 {
-    color: #fffafa;
+    color: #ffffff;
     font-family: "OpenSans-Regular", sans-serif;
     font-size: 24px;
     font-weight: 400;
@@ -94,7 +105,7 @@
   }
 
   .verify-with-evaap-trusted-verification-span4 {
-    color: #fffafa;
+    color: #ffffff;
     font-family: "OpenSans-Regular", sans-serif;
     font-size: 24px;
     font-weight: 400;
@@ -102,15 +113,20 @@
 
   .evaap-is-your-trusted-partener-for-employment-verification-and-academic-proofing-we-ensure-that-your-credentials-are-accurately-verified-providing-peace-of-mind-for-both-employers-and-educational-institutions-our-streamlined-process-is-designed-to-be-efficient-and-reliable-making-it-easier-for-you-to-get-the-verification-you-need-quickly-and-securely {
     color: #fffafa;
-    text-align: left;
+    text-align: center;
     font-family: "OpenSans-Regular", sans-serif;
     font-size: 16px;
     font-weight: 400;
-    position: absolute;
-    right: 50px;
+    line-height:30px ;
+    line-break: auto;
+
+ position: relative;
+    left: 500px;
     top: 233px;
-    width: 648px;
-    height: 87px;
+    width: 650px;
+    height: 100px;
+
+    /* background: #000; */
   }
 
   .for-employers {
@@ -125,9 +141,9 @@
   }
 
   .employee-retention-featured-image-scaled-1 {
-    border-radius: 33px;
-    width: 261px;
-    height: 182px;
+    border-radius: 10px;
+    width: 340px;
+    height: 220px;
     position: absolute;
     left: calc(50% - 680px);
     top: calc(50% - 370.5px);
@@ -141,10 +157,14 @@
     font-size: 16px;
     font-weight: 400;
     position: absolute;
-    left: calc(50% - 400px);
+    left: 500px;
     top: calc(50% - 364.5px);
-    width: 932px;
-    height: 176px;
+    width: 800px;
+    height: 200px;
+
+    line-break:auto;
+    line-height: 25px;
+    /* background-color: #000000; */
   }
 
   .for-candidates {
@@ -154,18 +174,17 @@
     font-size: 32px;
     font-weight: 800;
     position: absolute;
-    left: calc(50% - -409px);
+    right: 100px;
     top: calc(50% - 166.5px);
   }
 
-  .Home page images-1 {
-    border-radius: 35px;
-    width: 308.45px;
-    height: 182px;
+  .Home-page-images-1 {
+    border-radius: 10px;
+    width: 350;
+    height: 200px;
     position: absolute;
     left: calc(50% - -356px);
     top: calc(50% - 112.5px);
-    object-fit: cover;
   }
 
   .with-evaap-candidates-can-easily-verify-their-identification-and-history-with-hr-departments-this-verification-helps-prioritize-them-among-their-peers-providing-a-competitive-edge-in-the-job-market-to-initiate-a-candidate-verification-employers-can-submit-a-request-that-includes-the-candidate-s-full-name-the-specific-information-they-wish-to-verify-such-as-previous-job-titles-education-or-references-and-any-necessary-consent-forms-our-team-will-promptly-process-the-request-and-provide-accurate-verification-details-typically-within-our-business-days-we-ensure-that-all-information-is-verified-securely-and-in-compliance-with-data-protection-regulations-we-understand-the-importance-of-confidentiality-and-handle-all-candidate-verification-requests-with-the-highest-level-of-security-whether-you-re-looking-to-confirm-work-experience-educational-credentials-or-professional-licenses-our-service-provides-a-trusted-solution-to-help-you-make-the-best-hiring-decisions {
@@ -175,19 +194,22 @@
     font-size: 16px;
     font-weight: 400;
     position: absolute;
-    left: calc(50% - 686px);
+    left: 100px;
     top: calc(50% - 105.5px);
-    width: 891px;
-    height: 161px;
+    width: 890px;
+    height: 200px;
+    line-height: 25px;
+    /* background: #000; */
   }
 
   .rectangle-10 {
-    background: #d5724a;
-    width: 1440px;
+    background: linear-gradient(to right, rgb(0, 55, 130), rgb(0, 110, 255));
+    width: 97.5vw;
     height: 90px;
+    margin: 10px;
     position: absolute;
-    left: calc(50% - 720px);
     top: calc(50% - -117.5px);
+    border-radius: 6px;
   }
 
   .need-an-immediate-verification {
@@ -197,8 +219,8 @@
     font-size: 32px;
     font-weight: 400;
     position: absolute;
-    left: calc(50% - 328px);
-    top: calc(50% - -133.5px);
+    top:57.5%;
+    left:5%;
   }
 
   .icon-orange-accessible-1 {
@@ -221,6 +243,8 @@
     top: calc(50% - -459.5px);
     width: 332px;
     height: 150px;
+
+    line-height: 25px;
   }
 
   .icon-green-quick-fast-immed-1 {
@@ -230,6 +254,7 @@
     left: calc(50% - 123px);
     top: calc(50% - -243.5px);
     object-fit: cover;
+
   }
 
   .get-instant-results-we-know-that-time-is-valuable-that-s-why-we-partner-with-the-clearinghouse-to-provide-instant-up-to-date-verifications-for-both-candidates-and-employers-our-system-ensures-that-you-receive-accurate-real-time-results-helping-your-business-save-time-and-make-faster-more-informed-decisions-whether-you-need-to-verify-employment-qualifications-or-credentials-you-can-count-on-immediate-access-to-the-most-current-data-available-24-7 {
@@ -243,6 +268,8 @@
     top: calc(50% - -460.5px);
     width: 306px;
     height: 186px;
+
+    line-height: 25px;
   }
 
   .icon-blue-degree-redcredfraud-1 {
@@ -265,24 +292,12 @@
     top: 1448px;
     width: 340px;
     height: 204px;
-  }
 
-  .line-1 {
-    margin-top: -2px;
-    border-style: solid;
-    border-color: #000000;
-    border-width: 2px 0 0 0;
-    width: 1440px;
-    height: 0px;
-    position: absolute;
-    left: -3px;
-    top: 1854px;
-    transform-origin: 0 0;
-    transform: rotate(0.08deg) scale(1, 1);
+    line-height: 25px;
   }
 
   .frame-152 {
-    background: rgba(20, 156, 228, 0.7);
+    background: rgb(0, 80, 185);
     border-radius: 20px;
     padding: 10px;
     display: flex;
@@ -293,9 +308,12 @@
     position: absolute;
     left: calc(50% - -462px);
     top: calc(50% - 569.5px);
+
+    width: 120px;
   }
 
   .verify {
+  
     color: #ffffff;
     text-align: left;
     font-family: "OpenSans-Regular", sans-serif;
@@ -305,8 +323,8 @@
   }
 
   .frame-1522 {
-    background: rgba(20, 156, 228, 0.7);
-    border-radius: 20px;
+    background: rgb(0, 0, 0);
+    border-radius: 19px;
     padding: 10px;
     display: flex;
     flex-direction: row;
@@ -314,8 +332,10 @@
     align-items: center;
     justify-content: center;
     position: absolute;
-    left: calc(50% - -226px);
-    top: calc(50% - -144.5px);
+    right: 120px;
+    top: 57.5%;
+
+    width: 120px;
   }
 
   .header-group {
@@ -324,11 +344,11 @@
   }
 
   .header {
-    background: #e2e2e4;
-    width: 1440px;
+    background: #dfdfdfaf;
+    border-radius: 7px 7px 0 0;
+    width: 100vw;
     height: 126px;
     position: absolute;
-    left: calc(50% - 720px);
     top: calc(50% - 990.5px);
     overflow: hidden;
   }
@@ -379,8 +399,11 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    transform:scale();
   }
+  .home2:hover{
 
+  translate: 5px;  }
   .contact-us {
     width: 74px;
     height: 19px;
@@ -405,8 +428,11 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    transform:scale();
   }
+  .contact-us2:hover{
 
+  translate: 5px;  }
   .about-us {
     width: 63px;
     height: 19px;
@@ -424,15 +450,19 @@
     position: absolute;
     right: -9.52%;
     left: 0%;
-    width: 109.52%;
+    width: 130%;
     bottom: -5.26%;
     top: -10.53%;
-    height: 115.79%;
+    height: 120%;
     display: flex;
     align-items: center;
     justify-content: flex-start;
-  }
 
+    transform:scale();
+  }
+  .about-us2:hover{
+
+  translate: 5px;  }
   .our-services {
     width: 85px;
     height: 19px;
@@ -457,47 +487,36 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    transform:scale();
   }
+  .our-services2:hover{
 
-  .language {
+  translate: 5px;  }
+
+  #lang {
     background: #ffffff;
     border-style: solid;
-    border-color: #939393;
+    border-color: #94949465;
+    border-radius: 7px;
     border-width: 1px;
     width: 110px;
     height: 30px;
     position: absolute;
-    left: 1158px;
+    left: 81%;
     top: 17px;
-  }
 
-  .language2 {
-    color: #000000;
-    text-align: left;
-    font-family: "OpenSans-Regular", sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    position: absolute;
-    right: -18.4%;
-    left: 18.4%;
-    width: 100%;
-    bottom: 0%;
-    top: 0%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
+    padding-left: 9px;
   }
-
   .help {
     background: #fcfcfc;
     border-style: solid;
-    border-color: #939393;
+    border-color: #94949465;
+    border-radius: 7px;
     border-width: 1px;
     width: 110px;
     height: 30px;
     position: absolute;
-    left: 1291px;
+    left: 90%;
     top: 17px;
   }
 
@@ -522,12 +541,13 @@
   .login {
     background: #fdfdfd;
     border-style: solid;
-    border-color: #939393;
+    border-color: #94949465;
+    border-radius: 7px;
     border-width: 1px;
     width: 110px;
-    height: 30px;
+    height: 40px;
     position: absolute;
-    left: 1293px;
+    left: 90%;
     top: 71px;
   }
 
@@ -555,19 +575,19 @@
   }
 
   .fotter {
-    width: 1440px;
-    height: 129px;
+    width: 100%;
+    height: 130px;
     position: static;
   }
 
   .fotter2 {
     background: #e2e2e4;
-    width: 1440px;
-    height: 129px;
+    width: 100%;
+    height: 130px;
     position: absolute;
-    left: calc(50% - 720px);
-    top: calc(50% - -861.5px);
+    bottom: 0;
     overflow: hidden;
+    border-radius: 0 0 10px 10px;
   }
 
   .evaap-logo-2-1-ai-brush-removebg-8-nqsg-4-zr-222 {
@@ -577,7 +597,24 @@
     left: 11px;
     top: 2px;
     object-fit: cover;
+
   }
+  #tooltip{
+    background-color: #010101;
+    color: #e2e2e4;
+    position: absolute;
+    top: 10px;
+    width: 75px;
+    padding: 1px;
+    border-radius: 5px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  .evaap-logo-2-1-ai-brush-removebg-8-nqsg-4-zr-222 :hover #tooltip{
+    visibility:visible;
+    opacity: 1;
+}
 
   .no-179-down-street-new-york-xxxxxxxxxxx-usa-600096 {
     color: #000000;
@@ -703,8 +740,8 @@
   }
 
   .instagram-circle {
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     position: absolute;
     left: 1111px;
     top: 46px;
@@ -722,8 +759,8 @@
   }
 
   .linked-in-circled {
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     position: absolute;
     left: 1195px;
     top: 46px;
@@ -821,27 +858,30 @@
     color: #000000;
     text-align: left;
     font-family: "OpenSans-Regular", sans-serif;
-    font-size: 36px;
+    font-size: 26px;
     font-weight: 400;
     position: absolute;
     right: 0%;
     left: 0%;
     width: 100%;
     bottom: 0%;
-    top: 0%;
+    top: 30%;
     height: 100%;
   }
 
-  .twitter {
-    width: 60px;
-    height: 60px;
+
+
+
+
+.twitter {
+    width: 40px;
+    height: 40px;
     position: absolute;
-    left: calc(50% - -554px);
-    top: calc(50% - -909.5px);
+    right: 155px;
+    bottom: 44px;
   }
 
   .twitter2 {
-    border-radius: 100px;
     width: 100%;
     height: 100%;
     position: absolute;
@@ -851,6 +891,7 @@
     top: 0%;
     object-fit: cover;
   }
+
 
   .image-7 {
     width: 1440px;
@@ -870,8 +911,8 @@
       <div class="frame-158">
         <img class="image-6" src="./Home page/ mark for background.webp" />
       </div>
-      <img class="rectangle-8" src="./Home page/images/girls image.jpg" />
-      <img class="rectangle-8" src="./Home page/images/black image for the back ground.jpg" />
+      <img class="rectangle-8" src="./Home page/images/banner1.jpg" />
+      <!-- <img class="rectangle-8" src="./Home page/images/black image for the back ground.jpg" /> -->
       <div class="verify-with-evaap-trusted-verification">
         <span>
           <span class="verify-with-evaap-trusted-verification-span">
@@ -889,14 +930,14 @@
       </div>
       <div
         class="evaap-is-your-trusted-partener-for-employment-verification-and-academic-proofing-we-ensure-that-your-credentials-are-accurately-verified-providing-peace-of-mind-for-both-employers-and-educational-institutions-our-streamlined-process-is-designed-to-be-efficient-and-reliable-making-it-easier-for-you-to-get-the-verification-you-need-quickly-and-securely">
-        evaap is your trusted-partener for employment verification and academic
-        proofing we ensure that your credentials are accurately verified providing
-        peace of mind for both employers and educational institutions Our
-        streamlined process is designed to be efficient and reliable making it
-        easier for you to get the verification you need quickly and securely.
+        <p>Evaap is your trusted-partener for employment verification and academic
+          proofing we ensure that your credentials are accurately verified providing
+          peace of mind for both employers and educational institutions Our
+          streamlined process is designed to be efficient and reliable making it
+          easier for you to get the verification you need quickly and securely.</p>
       </div>
       <div class="for-employers">For Employers</div>
-      <img class="employee-retention-featured-image-scaled-1" src="./Home page/images/employer image.jpg" />
+      <img class="employee-retention-featured-image-scaled-1" src="./Home page/images/employee verification.jpg" />
       <div
         class="e-vaap-stremlines-the-background-check-process-for-employers-by-providing-pre-verified-candidates-this-ensures-authenticity-and-saves-time-making-your-recruitment-process-more-efficient-and-reliable-to-request-an-employment-verification-simply-submit-the-employee-s-name-dates-of-employment-and-the-specific-details-you-wish-to-verify-via-contact-method-e-g-email-or-secure-portal-we-will-process-your-request-promptly-typically-within-our-business-days-and-provide-you-with-the-requested-information-please-ensure-that-you-have-obtained-the-necessary-consent-from-the-individual-prior-to-making-a-request-our-verification-process-prioritizes-confidentiality-and-security-we-are-committed-to-complying-with-all-relevant-privacy-laws-and-handling-all-sensitive-data-with-care-whether-you-re-conducting-a-background-check-processing-a-loan-or-confirming-an-applicant-s-qualifications-we-are-here-to-support-your-verification-needs-efficiently-and-accurately">
         eVaap stremlines the background check process for employers by providing
@@ -909,14 +950,10 @@
         requested information. Please ensure that you have obtained the necessary
         consent from the individual prior to making a request.
         <br />
-        Our verification process prioritizes confidentiality and security. We are
-        committed to complying with all relevant privacy laws and handling all
-        sensitive data with care. Whether you&#039;re conducting a background
-        check, processing a loan, or confirming an applicant’s qualifications, we
-        are here to support your verification needs efficiently and accurately.
+        
       </div>
       <div class="for-candidates">For Candidates</div>
-      <img class="Home page images-1" src="./Home page/images/candidate.jpeg" />
+      <img class="Home-page-images-1" src="./Home page/images/candidate verification.jpg" />
       <div
         class="with-evaap-candidates-can-easily-verify-their-identification-and-history-with-hr-departments-this-verification-helps-prioritize-them-among-their-peers-providing-a-competitive-edge-in-the-job-market-to-initiate-a-candidate-verification-employers-can-submit-a-request-that-includes-the-candidate-s-full-name-the-specific-information-they-wish-to-verify-such-as-previous-job-titles-education-or-references-and-any-necessary-consent-forms-our-team-will-promptly-process-the-request-and-provide-accurate-verification-details-typically-within-our-business-days-we-ensure-that-all-information-is-verified-securely-and-in-compliance-with-data-protection-regulations-we-understand-the-importance-of-confidentiality-and-handle-all-candidate-verification-requests-with-the-highest-level-of-security-whether-you-re-looking-to-confirm-work-experience-educational-credentials-or-professional-licenses-our-service-provides-a-trusted-solution-to-help-you-make-the-best-hiring-decisions">
         With evaap, candidates can easily verify their identification and history
@@ -930,11 +967,7 @@
         ensure that all information is verified securely and in compliance with
         data protection regulations.
         <br />
-        We understand the importance of confidentiality and handle all candidate
-        verification requests with the highest level of security. Whether
-        you&#039;re looking to confirm work experience, educational credentials,
-        or professional licenses, our service provides a trusted solution to help
-        you make the best hiring decisions.
+        
       </div>
       <div class="rectangle-10"></div>
       <div class="need-an-immediate-verification">
@@ -943,7 +976,7 @@
       <img class="icon-orange-accessible-1" src="./Home page/images/laptop image.avif" />
       <div
         class="open-24-7-our-online-verification-services-are-available-to-you-24-7-that-s-why-we-offer-24-7-verification-services-for-both-candidates-and-employers-whether-you-need-to-verify-a-job-applicant-s-credentials-employment-history-or-qualifications-or-confirm-details-about-potential-employees-our-team-is-always-available-to-provide-reliable-real-time-verification-we-ensure-that-all-requests-are-handled-promptly-and-securely-giving-you-peace-of-mind-at-any-hour-of-the-day-or-night">
-        Open 24/7
+        <strong>Open 24/7</strong>
         <br />
         Our online Verification Services are available to you 24/7.That’s why we
         offer 24/7 verification services for both candidates and employers.
@@ -956,7 +989,7 @@
       <img class="icon-green-quick-fast-immed-1" src="./Home page/images/time picture image.avif" />
       <div
         class="get-instant-results-we-know-that-time-is-valuable-that-s-why-we-partner-with-the-clearinghouse-to-provide-instant-up-to-date-verifications-for-both-candidates-and-employers-our-system-ensures-that-you-receive-accurate-real-time-results-helping-your-business-save-time-and-make-faster-more-informed-decisions-whether-you-need-to-verify-employment-qualifications-or-credentials-you-can-count-on-immediate-access-to-the-most-current-data-available-24-7">
-        Get instant results
+        <strong>Get instant results</strong>
         <br />
         we know that time is valuable. That’s why we partner with The
         Clearinghouse to provide instant, up-to-date verifications for both
@@ -969,12 +1002,17 @@
       <img class="icon-blue-degree-redcredfraud-1" src="./Home page/images/fraud image.webp" />
       <div
         class="reduce-credentials-fraud-we-help-you-safeguard-your-business-against-credentials-fraud-by-ensuring-diploma-enrollment-and-degree-authenticity">
-        Reduce credentials fraud
+        <strong>Reduce credentials fraud</strong>
         <br />
         We help you safeguard your business against credentials fraud by ensuring
         diploma, enrollment, and degree authenticity.
+         We understand the importance of confidentiality and handle all candidate
+         verification requests with the highest level of security. Whether
+         you&#039;re looking to confirm work experience, educational credentials,
+         or professional licenses, our service provides a trusted solution to help
+         you make the best hiring decisions.
       </div>
-      <div class="line-1"></div>
+
       <div class="frame-152">
         <a href="https://www.example.com" style="text-decoration: none;">
           <div class="verify">Verify</div>
@@ -993,8 +1031,9 @@
 
         <a href="./index.html">
           <img class="evaap-logo-2-1-ai-brush-removebg-8-nqsg-4-zr-22"
-            src="./index.html" />
-        </a>
+            src="./Home page/images/EVAAP_LOGO_2.1-ai-brush-removebg-8nqsg4zr.png" />
+
+          </a>
 
         <div class="home">
           <a href="./index.html">
@@ -1016,10 +1055,23 @@
             <div class="our-services2">Our Services</div>
           </a>
         </div>
-        <div class="language">
-          <a href="https://www.example.com">
-            <div class="language2">Language</div>
-          </a>
+        
+
+
+      
+                <select id="lang" name="fruits">
+                    <option value="apple">Languages</option>
+                    <option value="apple">English</option>
+                    <option value="apple">Spanish</option>
+                    <option value="banana">German</option>
+                    <option value="orange">Spain</option>
+                    <option value="grape">Hindi</option>
+                    <option value="mango">Telugu</option>
+                </select>
+
+
+
+          
         </div>
         <div class="help">
           <a href="https://www.example.com">
@@ -1034,20 +1086,24 @@
       </div>
       <div class="fotter">
         <div class="fotter2">
-          <a href="./index.html">
+          <a href="#">
             <img class="evaap-logo-2-1-ai-brush-removebg-8-nqsg-4-zr-222"
               src="./Home page/images/EVAAP_LOGO_2.1-ai-brush-removebg-8nqsg4zr.png" />
-          </a>
-
-          <div class="no-179-down-street-new-york-xxxxxxxxxxx-usa-600096">
-            No.179 Down Street
-            <br />
-            New York
-            <br />
-            XXXXXXXXXXX
-            <br />
-            USA-600096
-          </div>
+              <p id="tooltip">Go To Top</p>
+            </a>
+          <a href="https://maps.app.goo.gl/AZg1Rxsktv8cs1Nq5">
+            <div class="no-179-down-street-new-york-xxxxxxxxxxx-usa-600096">
+              prashanthi hills
+              <br />
+              meerpet pincode-500058
+              <br />
+              XXXXXXXXXXX
+              <br />
+              Hyderabad
+              <br />
+              Telangana,India
+            </div>
+        </a>
           <div class="home3">
             <a href="./index.html">
               <div class="home2" id="alertParagraph">Home</div>
@@ -1084,10 +1140,10 @@
             </a>
           </div>
           <div class="instagram-circle">
-            <img class="instagram-circle2" src="./Home page images/instagram-circle.png" />
+            <img class="instagram-circle2" src="./Home page/images/instagram-circle.png" />
           </div>
           <div class="linked-in-circled">
-            <img class="linked-in-circled2" src="./Home page images/linkedin-circled.png" />
+            <img class="linked-in-circled2" src="./Home page/images/linkedin-circled.png" />
           </div>
           <div class="quick-links">
             <div class="quick-links2">Quick Links:</div>
@@ -1103,7 +1159,7 @@
           </div>
         </div>
         <div class="twitter">
-          <img class="twitter2" src="./Home page images/twitter.png" />
+          <img class="twitter2" src="./Home page/images/twitter.png" />
         </div>
       </div>
 

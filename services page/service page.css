@@ -340,6 +340,7 @@
   bottom: 0%;
   top: 0%;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 7px;
 }
 .rectangle-47 {
   background: #000000;
@@ -1231,44 +1232,32 @@
   left: calc(50% - -150px);
   top: 83px;
 }
-.language {
+
+#lang {
   background: #ffffff;
   border-style: solid;
-  border-color: #939393;
+  border-color: #94949465;
+  border-radius: 7px;
   border-width: 1px;
   width: 110px;
   height: 30px;
   position: absolute;
-  left: 1158px;
+  left: 81%;
   top: 17px;
-}
-.language2 {
-  color: #000000;
-  text-align: left;
-  font-family: "OpenSans-Regular", sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  position: absolute;
-  right: -18.4%;
-  left: 18.4%;
-  width: 100%;
-  bottom: 0%;
-  top: 0%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
+
+  padding-left: 9px;
 }
 .help {
   background: #fcfcfc;
   border-style: solid;
-  border-color: #939393;
+  border-color: #93939379;
   border-width: 1px;
   width: 110px;
   height: 30px;
   position: absolute;
   left: 1291px;
   top: 17px;
+  border-radius: 7px;
 }
 .help2 {
   color: #000000;
@@ -1290,13 +1279,15 @@
 .login {
   background: #fdfdfd;
   border-style: solid;
-  border-color: #939393;
+  border-color: #9393937e;
   border-width: 1px;
   width: 110px;
-  height: 30px;
+  height: 40px;
   position: absolute;
   left: 1293px;
   top: 71px;
+  border-radius: 7px;
+
 }
 .login2 {
   color: #000000;
