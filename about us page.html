@@ -812,44 +812,31 @@
   left: calc(50% - -150px);
   top: 83px;
 }
-.language {
-  background: #ffffff;
-  border-style: solid;
-  border-color: #939393;
-  border-width: 1px;
-  width: 110px;
-  height: 30px;
-  position: absolute;
-  left: 1158px;
-  top: 17px;
-}
-.language2 {
-  color: #000000;
-  text-align: left;
-  font-family: "OpenSans-Regular", sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  position: absolute;
-  right: -18.4%;
-  left: 18.4%;
-  width: 100%;
-  bottom: 0%;
-  top: 0%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
+#lang {
+    background: #ffffff;
+    border-style: solid;
+    border-color: #94949465;
+    border-radius: 7px;
+    border-width: 1px;
+    width: 110px;
+    height: 30px;
+    position: absolute;
+    left: 81%;
+    top: 17px;
+
+    padding-left: 9px;
+  }
 .help {
   background: #fcfcfc;
   border-style: solid;
-  border-color: #939393;
+  border-color: #9393937d;
   border-width: 1px;
   width: 110px;
   height: 30px;
   position: absolute;
   left: 1291px;
   top: 17px;
+  border-radius: 7px;
 }
 .help2 {
   color: #000000;
@@ -871,13 +858,14 @@
 .login {
   background: #fdfdfd;
   border-style: solid;
-  border-color: #939393;
+  border-color: #93939376;
   border-width: 1px;
   width: 110px;
-  height: 30px;
+  height: 40px;
   position: absolute;
   left: 1293px;
   top: 71px;
+  border-radius: 7px;
 }
 .login2 {
   color: #000000;
@@ -1195,7 +1183,15 @@
       <div class="our-services2"><a href="./service page.html">Our Services</a></div>
     </div>
     <div class="language">
-      <div class="language2">Language</div>
+      <select id="lang" name="fruits">
+        <option value="apple">Languages</option>
+        <option value="apple">English</option>
+        <option value="apple">Spanish</option>
+        <option value="banana">German</option>
+        <option value="orange">Spain</option>
+        <option value="grape">Hindi</option>
+        <option value="mango">Telugu</option>
+    </select>
     </div>
     <div class="help">
       <div class="help2">Help</div>
