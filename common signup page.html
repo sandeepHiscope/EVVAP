@@ -21,6 +21,7 @@
   position: absolute;
   left: 197px;
   top: 517px;
+  border-radius: 8px;
   box-shadow: 4px 4px 4px 1px rgba(0, 0, 0, 0.25);
 }
 .rectangle-46 {
@@ -32,6 +33,7 @@
   left: 0%;
   bottom: 0%;
   top: 0%;
+  border-radius: 8px;
 }
 .employee-login-sign-up {
   color: #000000;
@@ -48,12 +50,19 @@
   align-items: center;
   justify-content: flex-start;
 }
+#employeesignup{
+  position: absolute;
+  left: 0;
+  top: 500px;
+  background-color: #000000;
+}
 .employer-login {
   width: 219px;
   height: 39px;
   position: absolute;
   left: calc(50% - 76px);
   top: 517px;
+  border-radius: 8px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 .employer-login-sign-up {
@@ -70,6 +79,9 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
+}
+#employersignup{
+
 }
 .icon-of-emplotee {
   width: 200px;
@@ -634,12 +646,14 @@
     <body>
         <div class="icon-3">
             <div class="employee-login-sign-up-button">
-              <div class="rectangle-46"></div>
-              <div class="employee-login-sign-up">Employee Login/Sign up</div>
+              <div class="employee-login">
+              <div class="employee-login-sign-up">Employee Login</div>
+              <div id="employeesignup">Sign up</div>
+            </div>
             </div>
             <div class="employer-login">
-              <div class="rectangle-46"></div>
-              <div class="employer-login-sign-up">Employer Login/Sign up</div>
+              <div class="employer-login-sign-up">Employer Login</div>
+              <div id="employersignup">Sign up</div>
             </div>
             <div class="icon-of-emplotee">
               <img class="images-3" src="C:\My Project\icon of employee.jpg" />
