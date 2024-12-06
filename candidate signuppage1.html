@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <style>
+    .signup-page {
+      background: #fff;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+    
+    .header-section {
+      background: #E2E2E4;
+      width: 100%;
+      padding: 0 37px 0 7px;
+      overflow: hidden;
+    }
+    
+    .flex-container {
+      display: flex;
+      gap: 20px;
+    }
+    
+    .logo-wrapper {
+      width: 17%;
+    }
+    
+    .logo {
+      aspect-ratio: 1.66;
+      object-fit: contain;
+      width: 209px;
+    }
+    
+    .nav-content {
+      width: 83%;
+      margin-left: 20px;
+    }
+    
+    .nav-wrapper {
+      display: flex;
+      gap: 23px;
+      color: #000;
+      flex-wrap: wrap;
+      margin: auto 0;
+    }
+    
+    .nav-header {
+      flex-grow: 1;
+      flex-basis: 0;
+    }
+    
+    .main-title {
+      text-shadow: 0 4px 4px rgba(0,0,0,0.25);
+      width: 635px;
+      font: 24px Inter, sans-serif;
+      border: 1px solid rgba(0,0,0,0.25);
+    }
+    
+    .language-select {
+      background: #fff;
+      padding: 8px 20px;
+      font: 16px Open Sans, sans-serif;
+      border: 1px solid #939393;
+    }
+    
+    .nav-links {
+      display: flex;
+      width: 500px;
+      gap: 20px;
+      justify-content: space-between;
+      margin: 6px 0 0 58px;
+      font: 16px Open Sans, sans-serif;
+    }
+    
+    .utility-links {
+      display: flex;
+      flex-direction: column;
+      font: 16px Open Sans, sans-serif;
+    }
+    
+    .help-btn {
+      background: #fcfcfc;
+      text-align: center;
+      padding: 7px 39px;
+      border: 1px solid #939393;
+    }
+    
+    .login-btn {
+      background: #fdfdfd;
+      margin-top: 24px;
+      padding: 7px 31px;
+      border: 1px solid #939393;
+    }
+    
+    .signup-title {
+      color: #000;
+      align-self: center;
+      margin-top: 45px;
+      font: 800 32px Inter, sans-serif;
+    }
+    
+    .main-content {
+      margin-top: 39px;
+      width: 100%;
+      max-width: 1216px;
+    }
+    
+    .profile-image {
+      width: 43%;
+    }
+    
+    .profile-photo {
+      aspect-ratio: 1.19;
+      object-fit: contain;
+      width: 100%;
+      margin: auto 0;
+    }
+    
+    .form-section {
+      width: 57%;
+      margin-left: 20px;
+    }
+    
+    .form-wrapper {
+      display: flex;
+      flex-grow: 1;
+      flex-direction: column;
+      color: rgba(0,0,0,0.5);
+      font: 400 20px Inter, sans-serif;
+    }
+    
+    .personal-info {
+      width: 100%;
+      padding-left: 80px;
+    }
+    
+    .name-fields {
+      display: flex;
+      gap: 40px 100px;
+      flex-wrap: wrap;
+    }
+    
+    .input-field {
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      justify-content: center;
+      padding: 1px;
+      /* border: 1px solid #000; */
+    }
+    
+    .input-content {
+      background: #fff;
+      padding: 18px 29px;
+    }
+    
+    .education-title {
+      color: #000;
+      font-size: 32px;
+      margin-top: 44px;
+      /* border: 1px solid #000; */
+    }
+    
+    .education-form {
+      margin-top: 16px;
+      width: 100%;
+      padding-left: 57px;
+    }
+    
+    .degree-field {
+      color: rgba(0,0,0,0.8);
+      font-size: 24px;
+    }
+    
+    .upload-section {
+      color: #000;
+      font-size: 16px;
+      margin-top: 32px;
+    }
+    
+    .upload-icon {
+      aspect-ratio: 1.49;
+      width: 140px;
+      margin-left: 56px;
+    }
+    
+    .internship-title {
+      color: #000;
+      font-size: 16px;
+      margin: 19px 0 0 57px;
+    }
+    
+    .submit-section {
+      align-self: center;
+      width: 702px;
+      margin: 33px 0 0 88px;
+      padding-left: 22%;
+    }
+    
+    .submit-btn {
+      margin:25px;
+      border-radius: 10px;
+      background: #3A8EE1;
+      width: 200px;
+      color: #fff;
+      font-weight: 350;
+      padding: 6px 70px;
+    }
+    
+    .footer {
+      background: #E2E2E4;
+      margin-top: 25px;
+      width: 100%;
+      padding: 2px 80px 2px 11px;
+    }
+    
+    .footer-logo {
+      width: 33%;
+    }
+    
+    .footer-links {
+      width: 67%;
+      margin-left: 20px;
+    }
+    
+    .social-icons {
+      display: flex;
+      margin-top: 18px;
+      gap: 24px;
+    }
+    
+    .social-icon {
+      aspect-ratio: 1;
+      width: 60px;
+    }
+    
+    .visually-hidden {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0,0,0,0);
+      border: 0;
+    }
+    
+    @media (max-width: 991px) {
+      .header-section {
+        max-width: 100%;
+        padding-right: 20px;
+      }
+      
+      .flex-container {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0;
+      }
+      
+      .logo-wrapper,
+      .nav-content,
+      .profile-image,
+      .form-section,
+      .footer-logo,
+      .footer-links {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 40px;
+      }
+      
+      .main-title,
+      .nav-links,
+      .personal-info,
+      .education-form {
+        max-width: 100%;
+        padding-left: 20px;
+      }
+      
+      .help-btn,
+      .login-btn,
+      .input-content,
+      .submit-btn {
+        padding: 0 20px;
+      }
+      
+      .internship-title {
+        margin-left: 10px;
+      }
+    }
+    </style>
+</body>
+<form class="signup-page" action="/signup" method="POST">
+  <header class="header-section">
+    <div class="flex-container">
+      <div class="logo-wrapper">
+        <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/9b68738f378ee213976e33cce6293f28f3693d29e99e97e35b3f8835a1fa2e1c?placeholderIfAbsent=true&apiKey=c19d8f4750274b97b67b1edd681d3183" alt="Company Logo" class="logo" />
+      </div>
+      <nav class="nav-content">
+        <div class="nav-wrapper">
+          <div class="nav-header">
+            <h1 class="main-title">EMPLOYMENT VERIFICATION AND ACADEMIC PROOFING</h1>
+            <select class="language-select" aria-label="Select language">
+              <option>Language</option>
+            </select>
+          </div>
+          <div class="nav-links">
+            <a href="#" class="nav-link">Home</a>
+            <a href="#" class="nav-link">Contact Us</a>
+            <a href="#" class="nav-link">About Us</a>
+            <a href="#" class="nav-link">Our Services</a>
+          </div>
+          <div class="utility-links">
+            <button type="button" class="help-btn">Help</button>
+            <button type="button" class="login-btn">Login</button>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <h2 class="signup-title">Sign up</h2>
+  <main class="main-content">
+    <div class="flex-container">
+      <div class="profile-image">
+        <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/00f52b76c4f645aa20303ddd90160e514c87e8258a92f9e371b25fd422b1ece6?placeholderIfAbsent=true&apiKey=c19d8f4750274b97b67b1edd681d3183" alt="Profile section illustration" class="profile-photo" />
+      </div>
+      
+      <div class="form-section">
+        <div class="form-wrapper">
+          <div class="personal-info">
+            <div class="name-fields">
+              <div class="input-field">
+                <label for="firstName" class="visually-hidden">First name</label>
+                <input type="text" id="firstName" class="input-content" placeholder="First name" required />
+              </div>
+              <div class="input-field">
+                <label for="lastName" class="visually-hidden">Last name</label>
+                <input type="text" id="lastName" class="input-content" placeholder="Last name" required />
+              </div>
+            </div>
+            
+            <div class="input-field">
+              <label for="email" class="visually-hidden">Official email Id</label>
+              <input type="email" id="email" class="input-content" placeholder="Official email Id" required />
+            </div>
+            
+            <div class="input-field">
+              <label for="phone" class="visually-hidden">Mobile number</label>
+              <input type="tel" id="phone" class="input-content" placeholder="Mobile number" required />
+            </div>
+            
+            <div class="input-field">
+              <label for="address" class="visually-hidden">Address</label>
+              <input type="text" id="address" class="input-content" placeholder="Address" required />
+            </div>
+            
+            <div class="input-field">
+              <label for="dob" class="visually-hidden">Date of Birth</label>
+              <input type="date" id="dob" class="input-content" required />
+            </div>
+          </div>
+          <h3 class="education-title">Education Details</h3>
+          
+          <div class="education-form">
+            <label for="degree" class="degree-field">Highest degree obtained</label>
+            
+            <div class="input-field">
+              <label for="institution" class="visually-hidden">Institution Name</label>
+              <input type="text" id="institution" class="input-content" placeholder="Institution Name" required />
+            </div>
+            
+            <div class="input-field">
+              <label for="graduationYear" class="visually-hidden">Graduation year</label>
+              <input type="text" id="graduationYear" class="input-content" placeholder="Graduation year" required />
+            </div>
+            
+            <div class="input-field">
+              <label for="fieldStudy" class="visually-hidden">Field of study</label>
+              <input type="text" id="fieldStudy" class="input-content" placeholder="Field of study" required />
+            </div>
+            
+            <div class="input-field">
+              <label for="cgpa" class="visually-hidden">CGPA/Percentage</label>
+              <input type="text" id="cgpa" class="input-content" placeholder="CGPA/Percentage" required />
+            </div>
+            
+            <div class="upload-section">
+              <label for="resume">upload your resume</label>
+              <input type="file" id="resume" accept=".pdf,.doc,.docx" required />
+              <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/ac7cf1dffb009c9c1be9d94d81fd15ce035742d4e835dae842ba1c039f392831?placeholderIfAbsent=true&apiKey=c19d8f4750274b97b67b1edd681d3183" alt="Upload icon" class="upload-icon" />
+            </div>
+          </div>
+          
+          <h4 class="internship-title">Internship details:-</h4>
+        </div>
+      </div>
+    </div>
+  </main>
+  <div class="submit-section">
+    <div class="input-field">
+      <label for="company" class="visually-hidden">Company</label>
+      <input type="text" id="company" class="input-content" placeholder="Company" required />
+    </div>
+    
+    <div class="input-field">
+      <label for="jobTitle" class="visually-hidden">Job title</label>
+      <input type="text" id="jobTitle" class="input-content" placeholder="Job title" required />
+    </div>
+    
+    <button type="submit" class="submit-btn">Sign Up</button>
+  </div>
+  <footer class="footer">
+    <div class="flex-container">
+      <div class="footer-logo">
+        <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/76ce03f309352478532a3fd050d2ab3067486ae4fc6bf3142311c892bbead743?placeholderIfAbsent=true&apiKey=c19d8f4750274b97b67b1edd681d3183" alt="Footer logo" />
+        <nav aria-label="Quick links">
+          <h5>Quick Links:</h5>
+          <a href="#">Home</a>
+          <a href="#">Contact Us</a>
+          <a href="#">About Us</a>
+          <a href="#">Our Services</a>
+        </nav>
+      </div>
+      
+      <div class="footer-links">
+        <nav aria-label="Tools">
+          <h5>Tools:</h5>
+          <a href="#">FAQs</a>
+          <a href="#">Career</a>
+          <a href="#">Announces</a>
+        </nav>
+        
+        <address>
+          <h5>Contact Us:</h5>
+          No.179 Down Street<br>
+          New York<br>
+          XXXXXXXXXXX<br>
+          USA-600096
+        </address>
+        
+        <div>
+          <h5>Follow Us:</h5>
+          <div class="social-icons">
+            <a href="#"><img src="https://cdn.builder.io/api/v1/image/assets/TEMP/0a89b98f3eeb2b46ef2b639d98418e842e86edb06a467390a305d77ec019ec25?placeholderIfAbsent=true&apiKey=c19d8f4750274b97b67b1edd681d3183" alt="Social media icon" class="social-icon" /></a>
+            <a href="#"><img src="https://cdn.builder.io/api/v1/image/assets/TEMP/e6de6ee52a23b4459cce32c84bd9e51c2a70ea9e4258e512f8df9013943ab1b6?placeholderIfAbsent=true&apiKey=c19d8f4750274b97b67b1edd681d3183" alt="Social media icon" class="social-icon" /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</form>
+</body>
+</html>
