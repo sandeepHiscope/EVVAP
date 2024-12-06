@@ -1,0 +1,2456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .application-form-for-verifier,
+.application-form-for-verifier * {
+  box-sizing: border-box;
+}
+.application-form-for-verifier {
+  background: #ffffff;
+  height: 4575px;
+  position: relative;
+  overflow: hidden;
+}
+.header-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 1440px;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 0px;
+}
+.header {
+  background: #e2e2e4;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 126px;
+  position: relative;
+  overflow: hidden;
+}
+.employment-verification-and-academic-proofing {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 19px;
+  -webkit-text-stroke: 1px rgba(0, 0, 0, 0.25);
+}
+.evaap-logo-2-1-ai-brush-removebg-8-nqsg-4-zr-22 {
+  width: 209px;
+  height: 200px;
+  position: absolute;
+  left: 7px;
+  top: -29px;
+  object-fit: cover;
+}
+.language-button {
+  width: 111px;
+  height: 30px;
+  position: absolute;
+  right: 150px;
+  top: 25px;
+}
+.rectangle-48 {
+  background: #ffffff;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.language {
+  color: #000000;
+  text-align: left;
+  font-family: "OpenSans-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 50%;
+  translate: -50% -50%;
+  top: 50%;
+  width: 77px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.help-button {
+  width: 90px;
+  height: 30px;
+  position: absolute;
+  right: 37px;
+  top: 25px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.rectangle-47 {
+  background: #ffffff;
+  border-radius: 15px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+}
+.help {
+  color: #000000;
+  text-align: center;
+  font-family: "OpenSans-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 50%;
+  translate: -50% -50%;
+  top: 50%;
+  width: 44px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home {
+  width: 42px;
+  height: 19px;
+  position: absolute;
+  left: calc(50% - 257px);
+  top: 83px;
+}
+.home2 {
+  color: #000000;
+  text-align: left;
+  font-family: "OpenSans-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  right: -9.52%;
+  left: 0%;
+  width: 109.52%;
+  bottom: -5.26%;
+  top: -10.53%;
+  height: 115.79%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.contact-us {
+  width: 74px;
+  height: 19px;
+  position: absolute;
+  left: calc(50% - 153px);
+  top: 83px;
+}
+.contact-us2 {
+  color: #000000;
+  text-align: left;
+  font-family: "OpenSans-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  right: -9.46%;
+  left: 0%;
+  width: 109.46%;
+  bottom: -5.26%;
+  top: -10.53%;
+  height: 115.79%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.about-us {
+  width: 63px;
+  height: 19px;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 83px;
+}
+.about-us2 {
+  color: #000000;
+  text-align: left;
+  font-family: "OpenSans-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  right: -9.52%;
+  left: 0%;
+  width: 109.52%;
+  bottom: -5.26%;
+  top: -10.53%;
+  height: 115.79%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.our-services {
+  width: 85px;
+  height: 19px;
+  position: absolute;
+  left: calc(50% - -150px);
+  top: 83px;
+}
+.our-services2 {
+  color: #000000;
+  text-align: left;
+  font-family: "OpenSans-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  right: -10.59%;
+  left: 0%;
+  width: 110.59%;
+  bottom: -5.26%;
+  top: -10.53%;
+  height: 115.79%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.icon-of-admin {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 1273px;
+  top: 67px;
+}
+.images-4 {
+  border-radius: 112.5px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  box-shadow: 0px 4px 50px 20px rgba(0, 0, 0, 0.25);
+  object-fit: cover;
+}
+.personal-information {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 100px;
+  top: 207px;
+}
+.first-name {
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 179px;
+  top: 268px;
+}
+.first-name-span {
+  color: #000000;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.first-name-span2 {
+  color: #ff070b;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.employee-id-number {
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 177px;
+  top: 377px;
+}
+.employee-id-number-span {
+  color: #000000;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.employee-id-number-span2 {
+  color: #ff0707;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.job-title-position {
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 834px;
+  top: 377px;
+  width: 181px;
+}
+.job-title-position-span {
+  color: #000000;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.job-title-position-span2 {
+  color: #ff0909;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.department {
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 177px;
+  top: 486px;
+}
+.department-span {
+  color: #000000;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.department-span2 {
+  color: #ff0404;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.email-address {
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 177px;
+  top: 595px;
+}
+.email-address-span {
+  color: #000000;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.email-address-span2 {
+  color: #ff0707;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.phone-number {
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 177px;
+  top: 709px;
+}
+.phone-number-span {
+  color: #000000;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.phone-number-span2 {
+  color: #ff0404;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.date-of-birth {
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 177px;
+  top: 813px;
+}
+.date-of-birth-span {
+  color: #000000;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.date-of-birth-span2 {
+  color: #ff0a0a;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.last-name {
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: calc(50% - -114px);
+  top: 258px;
+}
+.last-name-span {
+  color: #000000;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.last-name-span2 {
+  color: #f60a0a;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.phone-number2 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 834px;
+  top: 704px;
+}
+.date-of-employement {
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 177px;
+  top: 922px;
+}
+.date-of-employement-span {
+  color: #000000;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.date-of-employement-span2 {
+  color: #ff0404;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.date-of-employement-span3 {
+  color: #000000;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.supervisor-manager-name {
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 834px;
+  top: 486px;
+}
+.supervisor-manager-name-span {
+  color: #000000;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.supervisor-manager-name-span2 {
+  color: #ff0d0d;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.employment-verification-details {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 111px;
+  top: 1469px;
+}
+.reason-for-verification-request {
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 184px;
+  top: 1519px;
+}
+.reason-for-verification-request-span {
+  color: #000000;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+}
+.reason-for-verification-request-span2 {
+  color: #ff0808;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+}
+.verification-type-needed {
+  text-align: left;
+  font-family: "InriaSans-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 184px;
+  top: 1763px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.verification-type-needed-span {
+  color: #000000;
+  font-family: "InriaSans-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+}
+.verification-type-needed-span2 {
+  color: #ff0707;
+  font-family: "InriaSans-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+}
+.supporting-documents {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 111px;
+  top: 1977px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.government-issued-id-aadhaar-pan-card-passport {
+  text-align: left;
+  font-family: "OpenSans-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 184px;
+  top: 2026px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.government-issued-id-aadhaar-pan-card-passport-span {
+  color: #000000;
+  font-family: "OpenSans-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.government-issued-id-aadhaar-pan-card-passport-span2 {
+  color: #ff0707;
+  font-family: "OpenSans-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.upload-file {
+  width: 140px;
+  height: 94px;
+  position: absolute;
+  left: 393px;
+  top: 2067px;
+}
+.image-24 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  object-fit: cover;
+}
+.employment-contract-or-offer-letter {
+  color: #000000;
+  text-align: left;
+  font-family: "OpenSans-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 184px;
+  top: 2171px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.upload-file2 {
+  width: 140px;
+  height: 94px;
+  position: absolute;
+  left: 393px;
+  top: 2225px;
+}
+.pay-stubs-or-salary-statements {
+  color: #000000;
+  text-align: left;
+  font-family: "OpenSans-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 184px;
+  top: 2329px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.upload-file3 {
+  width: 140px;
+  height: 94px;
+  position: absolute;
+  left: 393px;
+  top: 2361px;
+}
+.other-supporting-documents {
+  color: #000000;
+  text-align: left;
+  font-family: "OpenSans-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 184px;
+  top: 2465px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.upload-file4 {
+  width: 140px;
+  height: 94px;
+  position: absolute;
+  left: 393px;
+  top: 2497px;
+}
+.education-verification {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 111px;
+  top: 2610px;
+}
+.input-feild {
+  width: 400px;
+  height: 42px;
+  position: absolute;
+  left: 179px;
+  top: 306px;
+}
+.rectangle-173 {
+  background: #ffffff;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  box-shadow: inset 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.input-feild2 {
+  width: 400px;
+  height: 42px;
+  position: absolute;
+  left: 834px;
+  top: 306px;
+}
+.input-feild3 {
+  width: 400px;
+  height: 42px;
+  position: absolute;
+  left: 177px;
+  top: 415px;
+}
+.input-feild4 {
+  width: 400px;
+  height: 42px;
+  position: absolute;
+  left: 834px;
+  top: 415px;
+}
+.input-feild5 {
+  width: 400px;
+  height: 42px;
+  position: absolute;
+  left: 177px;
+  top: 531px;
+}
+.input-feild6 {
+  width: 400px;
+  height: 42px;
+  position: absolute;
+  left: 834px;
+  top: 531px;
+}
+.input-feild7 {
+  width: 400px;
+  height: 42px;
+  position: absolute;
+  left: 179px;
+  top: 640px;
+}
+.input-feild8 {
+  width: 400px;
+  height: 42px;
+  position: absolute;
+  left: 834px;
+  top: 747px;
+}
+.input-feild9 {
+  width: 400px;
+  height: 42px;
+  position: absolute;
+  left: 177px;
+  top: 858px;
+}
+.input-feild10 {
+  width: 400px;
+  height: 42px;
+  position: absolute;
+  left: 179px;
+  top: 967px;
+}
+.work-location {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 834px;
+  top: 595px;
+}
+.district {
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 752px;
+  top: 1231px;
+}
+.district-span {
+  color: #000000;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.district-span2 {
+  color: #ff0606;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.address {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 100px;
+  top: 1077px;
+}
+.country {
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 177px;
+  top: 1120px;
+}
+.country-span {
+  color: #000000;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.country-span2 {
+  color: #ff0707;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.state {
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 767px;
+  top: 1115px;
+}
+.state-span {
+  color: #000000;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.state-span2 {
+  color: #ff0606;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.street-h-no {
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 184px;
+  top: 1231px;
+}
+.street-h-no-span {
+  color: #000000;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.street-h-no-span2 {
+  color: #ff0404;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.postal-code {
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 181px;
+  top: 1342px;
+}
+.postal-code-span {
+  color: #000000;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.postal-code-span2 {
+  color: #ff0505;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.input-feild11 {
+  width: 350px;
+  height: 42px;
+  position: absolute;
+  left: 177px;
+  top: 1160px;
+}
+.input-feild12 {
+  width: 350px;
+  height: 42px;
+  position: absolute;
+  left: 752px;
+  top: 1160px;
+}
+.input-feild13 {
+  width: 350px;
+  height: 42px;
+  position: absolute;
+  left: 752px;
+  top: 1271px;
+}
+.input-feild14 {
+  width: 400px;
+  height: 42px;
+  position: absolute;
+  left: 177px;
+  top: 1271px;
+}
+.input-feild15 {
+  width: 400px;
+  height: 42px;
+  position: absolute;
+  left: 179px;
+  top: 1380px;
+}
+.input-feild16 {
+  width: 400px;
+  height: 42px;
+  position: absolute;
+  left: 179px;
+  top: 747px;
+}
+.gender {
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 834px;
+  top: 813px;
+}
+.gender-span {
+  color: #000000;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.gender-span2 {
+  color: #ff0303;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.input-feild17 {
+  width: 400px;
+  height: 42px;
+  position: absolute;
+  left: 834px;
+  top: 640px;
+}
+.radio-chocie-component {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 313px;
+  height: 179px;
+  position: absolute;
+  left: 199px;
+  top: 1578px;
+}
+.radio-button-option {
+  padding: 0px 8px 0px 8px;
+  display: flex;
+  flex-direction: row;
+  gap: 9px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.radio-button {
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  position: relative;
+}
+.rectangle-189 {
+  background: #ffffff;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.2);
+  border-width: 1px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+}
+.radio-button2 {
+  color: #000000;
+  text-align: left;
+  font-family: "OpenSans-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+}
+.radio-chocie-component2 {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 257px;
+  position: absolute;
+  left: 199px;
+  top: 1816px;
+}
+.radio-chocie-component3 {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 103px;
+  position: absolute;
+  left: 866px;
+  top: 858px;
+}
+.input-feild18 {
+  width: 250px;
+  height: 22px;
+  position: absolute;
+  left: 294px;
+  top: 1718px;
+}
+.input-feild19 {
+  width: 250px;
+  height: 22px;
+  position: absolute;
+  left: 305px;
+  top: 1718px;
+}
+.input-feild20 {
+  width: 250px;
+  height: 22px;
+  position: absolute;
+  left: 305px;
+  top: 1921px;
+}
+.input-feild21 {
+  width: 438px;
+  height: 26px;
+  position: absolute;
+  left: 704px;
+  top: 4083px;
+}
+.rectangle-142 {
+  background: #fffefe;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  box-shadow: inset 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.supervisor-s-position {
+  color: #000000;
+  text-align: left;
+  font-family: "OpenSans-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 184px;
+  top: 3839px;
+}
+.manager-supervisor-approval-if-required {
+  color: #000000;
+  text-align: left;
+  font-family: "OpenSans-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 111px;
+  top: 3681px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.input-feild22 {
+  width: 400px;
+  height: 42px;
+  position: absolute;
+  left: 184px;
+  top: 3783px;
+}
+.supervisor-s-name {
+  color: #000000;
+  text-align: left;
+  font-family: "OpenSans-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 184px;
+  top: 3747px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.input-feild23 {
+  width: 400px;
+  height: 42px;
+  position: absolute;
+  left: 184px;
+  top: 3875px;
+}
+.supervisor-s-email-address {
+  color: #000000;
+  text-align: left;
+  font-family: "OpenSans-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 184px;
+  top: 3931px;
+}
+.supervisor-s-confirmation {
+  color: #000000;
+  text-align: left;
+  font-family: "OpenSans-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 184px;
+  top: 4022px;
+}
+.input-feild24 {
+  width: 400px;
+  height: 42px;
+  position: absolute;
+  left: 184px;
+  top: 3966px;
+}
+.radio-chocie-component4 {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 850px;
+  position: absolute;
+  left: 208px;
+  top: 4058px;
+}
+.input-feild25 {
+  width: 400px;
+  height: 42px;
+  position: absolute;
+  left: 165px;
+  top: 2698px;
+}
+.institution-name {
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 188px;
+  top: 2654px;
+}
+.institution-name-span {
+  color: #000000;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.institution-name-span2 {
+  color: #ff0000;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.institution-address {
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 774px;
+  top: 2654px;
+}
+.institution-address-span {
+  color: #000000;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.institution-address-span2 {
+  color: #ff0000;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.input-feild26 {
+  width: 400px;
+  height: 42px;
+  position: absolute;
+  left: 748px;
+  top: 2698px;
+}
+.field-of-study {
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 202px;
+  top: 2780px;
+}
+.field-of-study-span {
+  color: #000000;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.field-of-study-span2 {
+  color: #ff0000;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.input-feild27 {
+  width: 400px;
+  height: 42px;
+  position: absolute;
+  left: 165px;
+  top: 2824px;
+}
+.start-and-end-date {
+  text-align: left;
+  font-family: "InriaSans-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 774px;
+  top: 2784px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.start-and-end-date-span {
+  color: #000000;
+  font-family: "InriaSans-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.start-and-end-date-span2 {
+  color: #ff0000;
+  font-family: "InriaSans-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.input-feild28 {
+  width: 400px;
+  height: 42px;
+  position: absolute;
+  left: 748px;
+  top: 2824px;
+}
+.text {
+  color: #000000;
+  text-align: left;
+  font-family: "InriaSans-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 894px;
+  top: 2983px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.cgpa-percentage {
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 202px;
+  top: 2906px;
+}
+.cgpa-percentage-span {
+  color: #000000;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.cgpa-percentage-span2 {
+  color: #ff0101;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.input-feild29 {
+  width: 400px;
+  height: 42px;
+  position: absolute;
+  left: 165px;
+  top: 2950px;
+}
+.employment-verification {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 111px;
+  top: 3056px;
+}
+.company-name {
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 188px;
+  top: 3100px;
+}
+.company-name-span {
+  color: #000000;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.company-name-span2 {
+  color: #ff0000;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.input-feild30 {
+  width: 400px;
+  height: 42px;
+  position: absolute;
+  left: 165px;
+  top: 3149px;
+}
+.employer-contact-information {
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 774px;
+  top: 3100px;
+}
+.employer-contact-information-span {
+  color: #000000;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+}
+.employer-contact-information-span2 {
+  color: #ff0000;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+}
+.input-feild31 {
+  width: 400px;
+  height: 42px;
+  position: absolute;
+  left: 748px;
+  top: 3149px;
+}
+.cureent-most-recent-job-tittle {
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 188px;
+  top: 3211px;
+}
+.cureent-most-recent-job-tittle-span {
+  color: #000000;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+}
+.cureent-most-recent-job-tittle-span2 {
+  color: #ff0101;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+}
+.input-feild32 {
+  width: 400px;
+  height: 42px;
+  position: absolute;
+  left: 165px;
+  top: 3260px;
+}
+.employment-period {
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 774px;
+  top: 3211px;
+}
+.employment-period-span {
+  color: #000000;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+}
+.employment-period-span2 {
+  color: #ff0404;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+}
+.input-feild33 {
+  width: 400px;
+  height: 42px;
+  position: absolute;
+  left: 748px;
+  top: 3260px;
+}
+.employee-id {
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 188px;
+  top: 3322px;
+}
+.employee-id-span {
+  color: #000000;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+}
+.employee-id-span2 {
+  color: #ff0505;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+}
+.input-feild34 {
+  width: 400px;
+  height: 42px;
+  position: absolute;
+  left: 165px;
+  top: 3371px;
+}
+.company-address {
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 774px;
+  top: 3318px;
+}
+.company-address-span {
+  color: #000000;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+}
+.company-address-span2 {
+  color: #ff0101;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+}
+.input-feild35 {
+  width: 400px;
+  height: 42px;
+  position: absolute;
+  left: 748px;
+  top: 3367px;
+}
+.reason-for-leaving {
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 188px;
+  top: 3433px;
+}
+.reason-for-leaving-span {
+  color: #000000;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+}
+.reason-for-leaving-span2 {
+  color: #ff0303;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+}
+.input-feild36 {
+  width: 609px;
+  height: 42px;
+  position: absolute;
+  left: 165px;
+  top: 3482px;
+}
+.frame-149 {
+  background: #ffffff;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #7a7a7a;
+  border-width: 1px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 165px;
+  top: 3564px;
+}
+.signup-login {
+  color: #000000;
+  text-align: left;
+  font-family: "OpenSans-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+}
+.submit {
+  background: #000000;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 50px;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 4324px;
+}
+.submit2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  position: absolute;
+  left: calc(50% - 45.5px);
+  top: 50%;
+  translate: 0 -50%;
+}
+.terms-conditions {
+  color: #000000;
+  text-align: left;
+  font-family: "OpenSans-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 110px;
+  top: 4155px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.by-submitting-this-application-you-agree-to-our-terms-of-service-and-privacy-policy {
+  color: #000000;
+  text-align: left;
+  font-family: "OpenSans-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 110px;
+  top: 4194px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+     .all-documents-provided-will-be-securely-processed-and-verified {
+  color: #000000;
+  text-align: left;
+  font-family: "OpenSans-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 108px;
+  top: 4227px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.group-43 {
+  position: absolute;
+  inset: 0;
+}
+.radio-button3 {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 80px;
+  top: 4263px;
+}
+.fotter {
+  position: absolute;
+  inset: 0;
+}
+.fotter2 {
+  background: #e2e2e4;
+  width: 1440px;
+  height: 129px;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: calc(50% - -2158.5px);
+  overflow: hidden;
+}
+.evaap-logo-2-1-ai-brush-removebg-8-nqsg-4-zr-222 {
+  width: 181px;
+  height: 126px;
+  position: absolute;
+  left: 11px;
+  top: 2px;
+  object-fit: cover;
+}
+.no-179-down-street-new-york-xxxxxxxxxxx-usa-600096 {
+  color: #000000;
+  text-align: left;
+  font-family: "OpenSans-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 34px;
+  width: 246.37px;
+  height: 128px;
+}
+.home3 {
+  width: 42px;
+  height: 19px;
+  position: absolute;
+  left: calc(50% - 454px);
+  top: 40px;
+}
+.contact-us3 {
+  width: 74px;
+  height: 19px;
+  position: absolute;
+  left: calc(50% - 454px);
+  top: 60px;
+}
+.about-us3 {
+  width: 63px;
+  height: 19px;
+  position: absolute;
+  left: calc(50% - 453px);
+  top: 81px;
+}
+.our-services3 {
+  width: 85px;
+  height: 19px;
+  position: absolute;
+  left: calc(50% - 454px);
+  top: 102px;
+}
+.fa-qs {
+  width: 63px;
+  height: 22px;
+  position: absolute;
+  left: calc(50% - 184px);
+  top: 51px;
+}
+.fa-qs2 {
+  color: #000000;
+  text-align: left;
+  font-family: "OpenSans-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.carrer {
+  width: 62px;
+  height: 17px;
+  position: absolute;
+  left: calc(50% - 184px);
+  top: 78px;
+}
+.carrer2 {
+  color: #000000;
+  text-align: left;
+  font-family: "OpenSans-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.announces {
+  width: 86px;
+  height: 18px;
+  position: absolute;
+  left: calc(50% - 185px);
+  top: 98px;
+}
+.announces2 {
+  color: #000000;
+  text-align: left;
+  font-family: "OpenSans-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.instagram-circle {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  left: 1111px;
+  top: 46px;
+}
+.instagram-circle2 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  object-fit: cover;
+}
+.linked-in-circled {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  left: 1195px;
+  top: 46px;
+}
+.linked-in-circled2 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  object-fit: cover;
+}
+.quick-links {
+  width: 113px;
+  height: 22px;
+  position: absolute;
+  left: 265px;
+  top: 5px;
+}
+.quick-links2 {
+  color: #000000;
+  text-align: left;
+  font-family: "OpenSans-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+}
+.tools {
+  width: 50px;
+  height: 27px;
+  position: absolute;
+  left: 535px;
+  top: 5px;
+}
+.tools2 {
+  color: #000000;
+  text-align: left;
+  font-family: "OpenSans-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  right: -10%;
+  left: 0%;
+  width: 110%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+}
+.contact-us4 {
+  width: 111px;
+  height: 27px;
+  position: absolute;
+  left: 751px;
+  top: 5px;
+}
+.contact-us5 {
+  color: #000000;
+  text-align: left;
+  font-family: "OpenSans-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+}
+.follow-us {
+  width: 181px;
+  height: 44px;
+  position: absolute;
+  left: 1111px;
+  top: 0px;
+}
+.follow-us2 {
+  color: #000000;
+  text-align: left;
+  font-family: "OpenSans-Regular", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+}
+.twitter {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  left: calc(50% - -554px);
+  top: calc(50% - -2206.5px);
+}
+.twitter2 {
+  border-radius: 100px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  object-fit: cover;
+}
+.i-agree-to-the-terms-and-conditions {
+  color: #000000;
+  text-align: left;
+  font-family: "OpenSans-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 110px;
+  top: 4260px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+</style>
+<body>
+    <div class="application-form-for-verifier">
+        <div class="header-group">
+          <div class="header">
+            <div class="employment-verification-and-academic-proofing">
+              EMPLOYMENT VERIFICATION AND ACADEMIC PROOFING
+              <br />
+            </div>
+            <img
+              class="evaap-logo-2-1-ai-brush-removebg-8-nqsg-4-zr-22"
+              src="evaap-logo-2-1-ai-brush-removebg-8-nqsg-4-zr-220.png"
+            />
+            <div class="language-button">
+              <div class="rectangle-48"></div>
+              <div class="language">Language</div>
+            </div>
+            <div class="help-button">
+              <div class="rectangle-47"></div>
+              <div class="help">Help</div>
+            </div>
+            <div class="home">
+              <div class="home2">Home</div>
+            </div>
+            <div class="contact-us">
+              <div class="contact-us2">Contact Us</div>
+            </div>
+            <div class="about-us">
+              <div class="about-us2">About Us</div>
+            </div>
+            <div class="our-services">
+              <div class="our-services2">Our Services</div>
+            </div>
+            <div class="icon-of-admin">
+              <img class="images-4" src="images-40.png" />
+            </div>
+          </div>
+        </div>
+        <div class="personal-information">PERSONAL INFORMATION:-</div>
+        <div class="first-name">
+          <span>
+            <span class="first-name-span">First Name:-</span>
+            <span class="first-name-span2">*</span>
+          </span>
+        </div>
+        <div class="employee-id-number">
+          <span>
+            <span class="employee-id-number-span">Employee ID Number:</span>
+            <span class="employee-id-number-span2">*</span>
+          </span>
+        </div>
+        <div class="job-title-position">
+          <span>
+            <span class="job-title-position-span">Job Title/Position:</span>
+            <span class="job-title-position-span2">*</span>
+          </span>
+        </div>
+        <div class="department">
+          <span>
+            <span class="department-span">Department:</span>
+            <span class="department-span2">*</span>
+          </span>
+        </div>
+        <div class="email-address">
+          <span>
+            <span class="email-address-span">Email Address:</span>
+            <span class="email-address-span2">*</span>
+          </span>
+        </div>
+        <div class="phone-number">
+          <span>
+            <span class="phone-number-span">Phone Number:</span>
+            <span class="phone-number-span2">*</span>
+          </span>
+        </div>
+        <div class="date-of-birth">
+          <span>
+            <span class="date-of-birth-span">Date of Birth:</span>
+            <span class="date-of-birth-span2">*</span>
+          </span>
+        </div>
+        <div class="last-name">
+          <span>
+            <span class="last-name-span">Last name:</span>
+            <span class="last-name-span2">*</span>
+          </span>
+        </div>
+        <div class="phone-number2">Phone Number:</div>
+        <div class="date-of-employement">
+          <span>
+            <span class="date-of-employement-span">Date of employement:</span>
+            <span class="date-of-employement-span2">*</span>
+            <span class="date-of-employement-span3"></span>
+          </span>
+        </div>
+        <div class="supervisor-manager-name">
+          <span>
+            <span class="supervisor-manager-name-span">Supervisor/Manager Name:</span>
+            <span class="supervisor-manager-name-span2">*</span>
+          </span>
+        </div>
+        <div class="employment-verification-details">
+          EMPLOYMENT VERIFICATION DETAILS:-
+        </div>
+        <div class="reason-for-verification-request">
+          <span>
+            <span class="reason-for-verification-request-span">
+              Reason for Verification Request:
+            </span>
+            <span class="reason-for-verification-request-span2">*</span>
+          </span>
+        </div>
+        <div class="verification-type-needed">
+          <span>
+            <span class="verification-type-needed-span">
+              Verification Type Needed:
+            </span>
+            <span class="verification-type-needed-span2">*</span>
+          </span>
+        </div>
+        <div class="supporting-documents">Supporting Documents:-</div>
+        <div class="government-issued-id-aadhaar-pan-card-passport">
+          <span>
+            <span class="government-issued-id-aadhaar-pan-card-passport-span">
+              Government-Issued ID(Aadhaar,pan card,passport):
+            </span>
+            <span class="government-issued-id-aadhaar-pan-card-passport-span2">
+              *
+            </span>
+          </span>
+        </div>
+        <div class="upload-file">
+          <img class="image-24" src="image-240.png" />
+        </div>
+        <div class="employment-contract-or-offer-letter">
+          Employment Contract or Offer Letter:
+          <br />
+        </div>
+        <div class="upload-file2">
+          <img class="image-24" src="image-241.png" />
+        </div>
+        <div class="pay-stubs-or-salary-statements">
+          Pay Stubs or Salary Statements:
+        </div>
+        <div class="upload-file3">
+          <img class="image-24" src="image-242.png" />
+        </div>
+        <div class="other-supporting-documents">Other Supporting Documents:</div>
+        <div class="upload-file4">
+          <img class="image-24" src="image-243.png" />
+        </div>
+        <div class="upload-file4">
+          <img class="image-24" src="image-244.png" />
+        </div>
+        <div class="education-verification">Education verification:</div>
+        <div class="input-feild">
+          <div class="rectangle-173"></div>
+        </div>
+        <div class="input-feild2">
+          <div class="rectangle-173"></div>
+        </div>
+        <div class="input-feild3">
+          <div class="rectangle-173"></div>
+        </div>
+        <div class="input-feild4">
+          <div class="rectangle-173"></div>
+        </div>
+        <div class="input-feild5">
+          <div class="rectangle-173"></div>
+        </div>
+        <div class="input-feild6">
+          <div class="rectangle-173"></div>
+        </div>
+        <div class="input-feild7">
+          <div class="rectangle-173"></div>
+        </div>
+        <div class="input-feild8">
+          <div class="rectangle-173"></div>
+        </div>
+        <div class="input-feild9">
+          <div class="rectangle-173"></div>
+        </div>
+        <div class="input-feild10">
+          <div class="rectangle-173"></div>
+        </div>
+        <div class="input-feild10">
+          <div class="rectangle-173"></div>
+        </div>
+        <div class="work-location">Work location:</div>
+        <div class="district">
+          <span>
+            <span class="district-span">DISTRICT:</span>
+            <span class="district-span2">*</span>
+          </span>
+        </div>
+        <div class="address">ADDRESS:-</div>
+        <div class="country">
+          <span>
+            <span class="country-span">COUNTRY:</span>
+            <span class="country-span2">*</span>
+          </span>
+        </div>
+        <div class="state">
+          <span>
+            <span class="state-span">STATE:</span>
+            <span class="state-span2">*</span>
+          </span>
+        </div>
+        <div class="street-h-no">
+          <span>
+            <span class="street-h-no-span">STREET/H:NO:</span>
+            <span class="street-h-no-span2">*</span>
+          </span>
+        </div>
+        <div class="postal-code">
+          <span>
+            <span class="postal-code-span">POSTAL CODE:</span>
+            <span class="postal-code-span2">*</span>
+          </span>
+        </div>
+        <div class="input-feild11">
+          <div class="rectangle-173"></div>
+        </div>
+        <div class="input-feild12">
+          <div class="rectangle-173"></div>
+        </div>
+        <div class="input-feild13">
+          <div class="rectangle-173"></div>
+        </div>
+        <div class="input-feild14">
+          <div class="rectangle-173"></div>
+        </div>
+        <div class="input-feild15">
+          <div class="rectangle-173"></div>
+        </div>
+        <div class="input-feild16">
+          <div class="rectangle-173"></div>
+        </div>
+        <div class="gender">
+          <span>
+            <span class="gender-span">Gender:</span>
+            <span class="gender-span2">*</span>
+          </span>
+        </div>
+        <div class="input-feild17">
+          <div class="rectangle-173"></div>
+        </div>
+        <div class="radio-chocie-component">
+          <div class="radio-button-option">
+            <div class="radio-button">
+              <div class="rectangle-189"></div>
+            </div>
+            <div class="radio-button2">Employment status confirmation</div>
+          </div>
+          <div class="radio-button-option">
+            <div class="radio-button">
+              <div class="rectangle-189"></div>
+            </div>
+            <div class="radio-button2">Benefits eligibility</div>
+          </div>
+          <div class="radio-button-option">
+            <div class="radio-button">
+              <div class="rectangle-189"></div>
+            </div>
+            <div class="radio-button2">Loan or credit verification</div>
+          </div>
+          <div class="radio-button-option">
+            <div class="radio-button">
+              <div class="rectangle-189"></div>
+            </div>
+            <div class="radio-button2">Identity verification for system access</div>
+          </div>
+          <div class="radio-button-option">
+            <div class="radio-button">
+              <div class="rectangle-189"></div>
+            </div>
+            <div class="radio-button2">Other:</div>
+          </div>
+        </div>
+        <div class="radio-chocie-component2">
+          <div class="radio-button-option">
+            <div class="radio-button">
+              <div class="rectangle-189"></div>
+            </div>
+            <div class="radio-button2">Full Employment Verification</div>
+          </div>
+          <div class="radio-button-option">
+            <div class="radio-button">
+              <div class="rectangle-189"></div>
+            </div>
+            <div class="radio-button2">Position and Role Verification</div>
+          </div>
+          <div class="radio-button-option">
+            <div class="radio-button">
+              <div class="rectangle-189"></div>
+            </div>
+            <div class="radio-button2">Salary/Income Verification</div>
+          </div>
+          <div class="radio-button-option">
+            <div class="radio-button">
+              <div class="rectangle-189"></div>
+            </div>
+            <div class="radio-button2">Other:</div>
+          </div>
+        </div>
+        <div class="radio-chocie-component3">
+          <div class="radio-button-option">
+            <div class="radio-button">
+              <div class="rectangle-189"></div>
+            </div>
+            <div class="radio-button2">Male</div>
+          </div>
+          <div class="radio-button-option">
+            <div class="radio-button">
+              <div class="rectangle-189"></div>
+            </div>
+            <div class="radio-button2">Female</div>
+          </div>
+          <div class="radio-button-option">
+            <div class="radio-button">
+              <div class="rectangle-189"></div>
+            </div>
+            <div class="radio-button2">Other</div>
+          </div>
+        </div>
+        <div class="input-feild18"></div>
+        <div class="input-feild19">
+          <div class="rectangle-173"></div>
+        </div>
+        <div class="input-feild20">
+          <div class="rectangle-173"></div>
+        </div>
+        <div class="input-feild21">
+          <div class="rectangle-142"></div>
+        </div>
+        <div class="supervisor-s-position">Supervisor’s Position:</div>
+        <div class="manager-supervisor-approval-if-required">
+          Manager/Supervisor Approval (If Required):
+        </div>
+        <div class="input-feild22">
+          <div class="rectangle-142"></div>
+        </div>
+        <div class="supervisor-s-name">Supervisor’s Name:</div>
+        <div class="input-feild23">
+          <div class="rectangle-142"></div>
+        </div>
+        <div class="supervisor-s-email-address">Supervisor’s Email Address:</div>
+        <div class="supervisor-s-confirmation">Supervisor’s Confirmation:</div>
+        <div class="input-feild24">
+          <div class="rectangle-142"></div>
+        </div>
+        <div class="radio-chocie-component4">
+          <div class="radio-button-option">
+            <div class="radio-button">
+              <div class="rectangle-189"></div>
+            </div>
+            <div class="radio-button2">
+              I confirm that the employee&#039;s information provided above is correct
+              and up to date
+            </div>
+          </div>
+          <div class="radio-button-option">
+            <div class="radio-button">
+              <div class="rectangle-189"></div>
+            </div>
+            <div class="radio-button2">
+              I do not approve the verification request (Provide Reason):
+            </div>
+          </div>
+        </div>
+        <div class="input-feild25">
+          <div class="rectangle-173"></div>
+        </div>
+        <div class="institution-name">
+          <span>
+            <span class="institution-name-span">Institution Name:</span>
+            <span class="institution-name-span2">*</span>
+          </span>
+        </div>
+        <div class="institution-address">
+          <span>
+            <span class="institution-address-span">Institution Address:</span>
+            <span class="institution-address-span2">*</span>
+          </span>
+        </div>
+        <div class="input-feild26">
+          <div class="rectangle-173"></div>
+        </div>
+        <div class="field-of-study">
+          <span>
+            <span class="field-of-study-span">Field of study:</span>
+            <span class="field-of-study-span2">*</span>
+          </span>
+        </div>
+        <div class="input-feild27">
+          <div class="rectangle-173"></div>
+        </div>
+        <div class="start-and-end-date">
+          <span>
+            <span class="start-and-end-date-span">Start and End Date:</span>
+            <span class="start-and-end-date-span2">*</span>
+          </span>
+        </div>
+        <div class="input-feild28">
+          <div class="rectangle-173"></div>
+        </div>
+        <div class="text"></div>
+        <div class="cgpa-percentage">
+          <span>
+            <span class="cgpa-percentage-span">CGPA/Percentage:</span>
+            <span class="cgpa-percentage-span2">*</span>
+          </span>
+        </div>
+        <div class="input-feild29">
+          <div class="rectangle-173"></div>
+        </div>
+        <div class="employment-verification">Employment Verification</div>
+        <div class="company-name">
+          <span>
+            <span class="company-name-span">Company Name:</span>
+            <span class="company-name-span2">*</span>
+          </span>
+        </div>
+        <div class="input-feild30">
+          <div class="rectangle-173"></div>
+        </div>
+        <div class="employer-contact-information">
+          <span>
+            <span class="employer-contact-information-span">
+              Employer Contact Information:
+            </span>
+            <span class="employer-contact-information-span2">*</span>
+          </span>
+        </div>
+        <div class="input-feild31">
+          <div class="rectangle-173"></div>
+        </div>
+        <div class="cureent-most-recent-job-tittle">
+          <span>
+            <span class="cureent-most-recent-job-tittle-span">
+              Cureent/Most Recent Job Tittle:
+            </span>
+            <span class="cureent-most-recent-job-tittle-span2">*</span>
+          </span>
+        </div>
+        <div class="input-feild32">
+          <div class="rectangle-173"></div>
+        </div>
+        <div class="employment-period">
+          <span>
+            <span class="employment-period-span">employment Period:</span>
+            <span class="employment-period-span2">*</span>
+          </span>
+        </div>
+        <div class="input-feild33">
+          <div class="rectangle-173"></div>
+        </div>
+        <div class="employee-id">
+          <span>
+            <span class="employee-id-span">Employee ID:</span>
+            <span class="employee-id-span2">*</span>
+          </span>
+        </div>
+        <div class="input-feild34">
+          <div class="rectangle-173"></div>
+        </div>
+        <div class="company-address">
+          <span>
+            <span class="company-address-span">Company Address:</span>
+            <span class="company-address-span2">*</span>
+          </span>
+        </div>
+        <div class="input-feild35">
+          <div class="rectangle-173"></div>
+        </div>
+        <div class="reason-for-leaving">
+          <span>
+            <span class="reason-for-leaving-span">Reason For Leaving:</span>
+            <span class="reason-for-leaving-span2">*</span>
+          </span>
+        </div>
+        <div class="input-feild36">
+          <div class="rectangle-173"></div>
+        </div>
+        <div class="frame-149">
+          <div class="signup-login">Add other employment</div>
+        </div>
+        <div class="submit">
+          <div class="submit2">Submit</div>
+        </div>
+        <div class="terms-conditions">Terms &amp; Conditions</div>
+        <div
+          class="by-submitting-this-application-you-agree-to-our-terms-of-service-and-privacy-policy"
+        >
+          By submitting this application, you agree to our Terms of Service and
+          Privacy Policy.
+        </div>
+        <div class="all-documents-provided-will-be-securely-processed-and-verified">
+          All documents provided will be securely processed and verified.
+        </div>
+        <div class="radio-button3">
+          <div class="rectangle-189"></div>
+        </div>
+        <div class="fotter2">
+          <img
+            class="evaap-logo-2-1-ai-brush-removebg-8-nqsg-4-zr-222"
+            src="evaap-logo-2-1-ai-brush-removebg-8-nqsg-4-zr-221.png"
+          />
+          <div class="no-179-down-street-new-york-xxxxxxxxxxx-usa-600096">
+            No.179 Down Street
+            <br />
+            New York
+            <br />
+            XXXXXXXXXXX
+            <br />
+            USA-600096
+          </div>
+          <div class="home3">
+            <div class="home2">Home</div>
+          </div>
+          <div class="contact-us3">
+            <div class="contact-us2">Contact Us</div>
+          </div>
+          <div class="about-us3">
+            <div class="about-us2">About Us</div>
+          </div>
+          <div class="our-services3">
+            <div class="our-services2">Our Services</div>
+          </div>
+          <div class="fa-qs">
+            <div class="fa-qs2">FAQs</div>
+          </div>
+          <div class="carrer">
+            <div class="carrer2">Carrer</div>
+          </div>
+          <div class="announces">
+            <div class="announces2">Announces</div>
+          </div>
+          <div class="instagram-circle">
+            <img class="instagram-circle2" src="instagram-circle1.png" />
+          </div>
+          <div class="linked-in-circled">
+            <img class="linked-in-circled2" src="linked-in-circled1.png" />
+          </div>
+          <div class="quick-links">
+            <div class="quick-links2">Quick Links:</div>
+          </div>
+          <div class="tools">
+            <div class="tools2">Tools:</div>
+          </div>
+          <div class="contact-us4">
+            <div class="contact-us5">Contact Us:</div>
+          </div>
+          <div class="follow-us">
+            <div class="follow-us2">Follow Us:</div>
+          </div>
+        </div>
+        <div class="twitter">
+          <img class="twitter2" src="twitter1.png" />
+        </div>
+        <div class="i-agree-to-the-terms-and-conditions">
+          I agree to the Terms and Conditions
+        </div>
+      </div>
+      
+</body>
+</html>
