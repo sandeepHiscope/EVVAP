@@ -19,112 +19,129 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
+    width: 100vw;
+
   }
   html {
+    width: 100vw;
     margin: 0px;
     padding: 0px;
+
+
   }
+  body{
+    margin: 0;
+  }
+  .middle-sec{
+    /* background-color: #000; */
+    width: 100%;
+    height: 550px;
+    
+  }
+ 
+
   .login-container {
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
     padding: 80px;
     border-radius: 11px;
+
   }
   #login-text {
     position: relative;
     top: -50px;
   }
   .login-section {
+    margin-top: 40px;
     background: #fff;
     border-radius: 10px;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
-    width: 350px;
-    padding: 20px 25px;
+    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.525);
+    width: 400px;
+    height: 400px;
+    padding: 20px 35px;
     text-align: center;
     color: #333;
-  }
-  .login-form h2 {
-    margin-bottom: 20px;
-    font-size: 1.8em;
-    color: #333;
-  }
-  .input-group {
+
     position: relative;
-    margin-bottom: 25px;
+    left: 35%;
   }
-  .input-group input {
-    width: 100%;
-    padding: 10px 10px 10px 40px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    font-size: 1em;
-    background: #f9f9f9;
-    outline: none;
-    transition: border 0.3s ease;
-  }
-  .input-group input:focus {
-    border: 1px solid #6a11cb;
-  }
-  .input-group label {
-    position: absolute;
-    top: 50%;
-    left: 10px;
-    transform: translateY(-50%);
-    font-size: 0.9em;
-    color: #aaa;
-    pointer-events: none;
-    transition: top 0.3s, font-size 0.3s, color 0.3s;
-  }
-  .input-group input:focus+label,
-  .input-group input:not(:placeholder-shown)+label {
-    top: -10px;
-    font-size: 0.75em;
-    color: #6a11cb;
-  }
-  #username {
-    position: relative;
-    left: -10px;
-  }
-  #password {
-    position: relative;
-    left: -10px;
-    top: 10px;
-  }
-  .btn {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    background: linear-gradient(135deg, #001196, #005eff);
-    border: none;
-    border-radius: 5px;
-    color: #fff;
-    font-size: 1em;
-    cursor: pointer;
-    transition: 0.3s ease;
-  }
-  .btn:hover {
-    background: linear-gradient(135deg, #2575fc, #0037ed);
-  }
-  .signup-text {
-    margin-top: 15px;
-    font-size: 0.9em;
-  }
-  .signup-text a {
-    color: #6a11cb;
-    text-decoration: none;
-  }
-  .signup-text a:hover {
-    text-decoration: underline;
-  }
+  .login-section h2 {
+      margin-bottom: 60px;
+      font-size: 1.8em;
+      
+    }
+    .input-group {
+      position: relative;
+      margin-bottom: 35px;
+    }
+
+    .input-group input {
+      width: 87%;
+      padding: 10px 0px 10px 40px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      background: #f9f9f9;
+      outline: none;
+      transition: border 0.3s ease;
+    }
+    .input-group input:focus {
+      border-color: #0042d1;
+    }
+
+    .input-group label {
+      position: absolute;
+      top: 50%;
+      left: 10px;
+      transform: translateY(-50%);
+      font-size: 0.9em;
+      color: #aaa;
+      pointer-events: none;
+      transition: top 0.3s, font-size 0.3s, color 0.3s;
+    }
+    .input-group input:focus + label,
+    .input-group input:not(:placeholder-shown) + label {
+      top: -10px;
+      font-size: 0.75em;
+      color: #111dcb;
+    }
+
+    .btn {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      background: linear-gradient(135deg, #001196, #005eff);
+      border: none;
+      border-radius: 5px;
+      color: #fff;
+      font-size: 1em;
+      cursor: pointer;
+      transition: background 0.5s ease;
+    }
+    .btn:hover {
+      background: linear-gradient(135deg, #2575fc, #0037ed);
+    }
+
+    .signup-text {
+      margin-top: 15px;
+      font-size: 0.9em;
+    }
+
+    .signup-text a {
+      color: #6a11cb;
+    }
+
+    .signup-text a:hover {
+      text-decoration: underline;
+    }
   .header-section {
     background-color: rgba(226, 226, 228, 1);
     width: 100vw;
-    /* overflow: hidden; */
-    padding: 0 37px 0 7px;
+    /* overflow: hidden;  */
     position: relative;
     top: -10px;
   }
   .flex-container {
-    gap: 20px;
+    gap: 0px;
+
     display: flex;
   }
   .logo-wrapper {
@@ -135,7 +152,7 @@
     margin-left: 0;
   }
   .logo {
-    aspect-ratio: 1.66;
+    aspect-ratio: 1.5;
     object-fit: contain;
     object-position: center;
     width: 209px;
@@ -146,17 +163,14 @@
     display: flex;
     flex-direction: column;
     line-height: normal;
-    width: 83%;
-    margin-left: 20px;
+    width: 100%;
   }
   .nav-content {
     display: flex;
-    gap: 23px;
     align-self: stretch;
     color: rgba(0, 0, 0, 1);
     font-weight: 400;
     flex-wrap: wrap;
-    margin: auto 0;
   }
   .nav-main {
     display: flex;
@@ -168,7 +182,7 @@
   }
   .header-content {
     display: flex;
-    gap: 40px 94px;
+    /* gap: 40px 94px; */
     flex-wrap: wrap;
   }
   .main-title {
@@ -194,7 +208,7 @@
   .auth-buttons {
     display: flex;
     flex-direction: column;
-    white-space: nowrap;
+    white-space: wrap;
     font: 16px Open Sans, sans-serif;
   }
   .help-button {
@@ -203,6 +217,9 @@
     padding: 7px 39px;
     border: 1px solid rgba(147, 147, 147, 0.484);
     border-radius: 7px;
+    position: relative;
+    left: -20px;
+    top: 20px;
   }
   .login-button {
     background-color: rgba(253, 253, 253, 1);
@@ -219,7 +236,7 @@
     align-items: center;
     color: rgba(0, 0, 0, 0.25);
     justify-content: center;
-    padding: 60px 80px;
+    padding: 5px;
     font: 400 16px Open Sans, sans-serif;
   }
   #lang {
@@ -232,12 +249,12 @@
     height: 30px;
     position: absolute;
     left: 81%;
-    top: 17px;
+    top: 20px;
     padding-left: 9px;
   }
   .background-image {
     position: absolute;
-    inset: 0;
+    top: 135px;
     height: 100%;
     width: 100vw;
     object-fit: cover;
@@ -301,9 +318,8 @@
   }
   .footer {
     background-color: rgba(226, 226, 228, 1);
-    width: 100%;
+    width: 100vw;
     overflow: hidden;
-    padding: 2px 80px 2px 11px;
     position: relative;
     top: 10px;
   }
@@ -563,28 +579,24 @@
     </nav>
   </div>
 </header>
-<main class="main-content">
-  <img
-    src="https://cdn.builder.io/api/v1/image/assets/TEMP/7ee2e48c719e1878676b9a58107a8e051c34d21ed34e4c2bb240cf25a10fbcd5?placeholderIfAbsent=true&apiKey=f582947cea25498d805bf718e764afab"
-    alt="" class="background-image" />
-  <div class="loginsec">
-    <div class="login-container">
-      <form class="login-form">
-        <h2 id="login-text">Login</h2>
-        <div class="input-group">
-          <input type="text" id="username" required>
-          <label for="username">@mail</label>
-        </div>
-        <div class="input-group">
-          <input type="password" id="password" required>
-          <label for="password">Password</label>
-        </div>
-        <button type="submit" class="btn"><a href="">Login</button></a>
-        <p class="signup-text">Don't have an account? <a href="./common signup page.html">Sign Up</a></p>
-      </form>
-    </div>
-  </div>
-</main>
+<div class="middle-sec">
+  <img src="./login page/bg-img.png" class="background-image" alt="">
+  <div class="login-section">
+    <h2>Login</h2>
+    <form>
+      <div class="input-group">
+      <input type="text" id="username" placeholder=" " required>
+      <label for="username">Username</label>
+      </div>
+      <div class="input-group">
+      <input type="password" id="password" placeholder=" " required>
+      <label for="password">Password</label>
+      </div>
+    <button class="btn" type="submit">Login</button>
+    </form>
+  <p class="signup-text">Don't have an account? <a href="./signup.html">Sign Up</a></p>
+</div>
+</div>
 <footer class="footer">
   <div class="flex-container">
     <div class="footer-logo-section">
