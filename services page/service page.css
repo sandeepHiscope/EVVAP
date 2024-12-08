@@ -800,7 +800,8 @@
   left: calc(50% - 720px);
   top: calc(50% - -2191px);
   overflow: visible;
-  border: #0000006a;
+  border-bottom: none;
+    background: #e2e2e4;
 }
 .image-22 {
   width: 365px;
