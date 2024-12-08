@@ -30,6 +30,7 @@
             overflow: hidden;
             padding: 0 37px 0 7px;
             border-radius: 10px;
+            width: 97%;
         }
 
         .flex-container {
@@ -81,7 +82,7 @@
             flex-grow: 1;
             width: 635px;
             flex-basis: auto;
-            font: 24px Inter, sans-serif;
+            font: 23px Inter, sans-serif;
             left: calc(50% - 315px);
             margin-top: 25px;
             -webkit-text-stroke: 1px rgba(0, 0, 0, 0.25);
@@ -122,21 +123,42 @@
             background-color: #fcfcfc;
             text-align: center;
             padding: 7px 39px;
-            border: 1px solid #939393;
+            border: 1px solid #9393937d;
             margin-right: 40px;
             font: 16px Open Sans, sans-serif;
             margin-top: 17px;
+            margin-right: 0px;
+            width: 120px;
+            border-radius: 7px;
         }
 
         .login-btn {
             background-color: #fdfdfd;
             margin-top: 24px;
             padding: 7px 31px;
-            border: 1px solid #939393;
+            border: 1px solid #93939374;
             margin-right: 40px;
             font: 16px Open Sans, sans-serif;
+            border-radius: 7px;
+            height: 40px;
+            width: 120px;
+
         }
 
+        #lang {
+    background: #ffffff;
+    border-style: solid;
+    border-color: #94949465;
+    border-radius: 7px;
+    border-width: 1px;
+    width: 110px;
+    height: 30px;
+    position: absolute;
+    left: 76%;
+    top: 25px;
+
+    padding-left: 9px;
+  }
         .signup-title {
             color: #000;
             align-self: center;
@@ -586,8 +608,14 @@
                         <div class="nav-header">
                             <div class="title-language">
                                 <h1 class="main-title">EMPLOYMENT VERIFICATION AND ACADEMIC PROOFING</h1>
-                                <select class="language-select" aria-label="Select language">
-                                    <option value="">Language</option>
+                                <select id="lang" name="languages">
+                                    <option value="apple">Languages</option>
+                                    <option value="apple">English</option>
+                                    <option value="apple">Spanish</option>
+                                    <option value="banana">German</option>
+                                    <option value="orange">Spain</option>
+                                    <option value="grape">Hindi</option>
+                                    <option value="mango">Telugu</option>
                                 </select>
                             </div>
                             <div class="nav-links">
