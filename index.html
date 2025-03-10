@@ -5,947 +5,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home page</title>
+  <link rel="stylesheet" href="index.css">
 </head>
 <style>
-   a{
-    text-decoration: none;
-    color: #000000;
-  }
-  a:hover{
-    color: #a109c0;
-  }
-  /* Reset default browser padding and margin */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-html, body {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  overflow-x: hidden; /* Prevent horizontal scrolling */
-}
-
-  .home-page{
-    box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
-    width: 100%;
-  }
-
-  .home-page {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: flex-start;
-    position: relative;
-  }
-
-
-  .home-page2 {
-    background: #ffffff;
-    width: 100vw;
-    height: 1980px;
-    position: relative;
-  }
-
-  .frame-158 {
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    gap: 0px;
-    align-items: flex-start;
-    justify-content: flex-start;
-    width: 1453px;
-    position: absolute;
-    left: calc(50% - 723px);
-    top: calc(50% - 489.5px);
-  }
-
-  .image-6 {
-    width: 100vw;
-    height: 597px;
-    position: relative;
-    opacity: 0%;
-  }
-
-  .rectangle-8 {
-    width: 100vw;
-    height: 389px;
-    position: absolute;
-    top: calc(50% - 868.5px);
-    object-fit: cover;
-    opacity: 100%;
-                                        /* we change blur of the banner here */
-    filter: blur(2px);
-  }
-
-  .verify-with-evaap-trusted-verification {
-    color: #ffffff;
-    text-align: left;
-    position: absolute;
-    left: 127px;
-    top: 245px;
-  }
-
-  .verify-with-evaap-trusted-verification-span {
-    color: #ffffff;
-    font-family: "OpenSans-Regular", sans-serif;
-    font-size: 32px;
-    font-weight: 400;
-  }
-
-  .verify-with-evaap-trusted-verification-span2 {
-    color: #ffffff;
-    font-family: "OpenSans-Regular", sans-serif;
-    font-size: 24px;
-    font-weight: 400;
-  }
-
-  .verify-with-evaap-trusted-verification-span3 {
-    color: #fffafa;
-    font-family: "OpenSans-Regular", sans-serif;
-    font-size: 40px;
-    font-weight: 400;
-  }
-
-  .verify-with-evaap-trusted-verification-span4 {
-    color: #ffffff;
-    font-family: "OpenSans-Regular", sans-serif;
-    font-size: 24px;
-    font-weight: 400;
-  }
-
-  .evaap-is-your-trusted-partener-for-employment-verification-and-academic-proofing-we-ensure-that-your-credentials-are-accurately-verified-providing-peace-of-mind-for-both-employers-and-educational-institutions-our-streamlined-process-is-designed-to-be-efficient-and-reliable-making-it-easier-for-you-to-get-the-verification-you-need-quickly-and-securely {
-    color: #fffafa;
-    text-align: center;
-    font-family: "OpenSans-Regular", sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height:30px ;
-    line-break: auto;
-
- position: relative;
-    left: 500px;
-    top: 233px;
-    width: 650px;
-    height: 100px;
-
-    /* background: #000; */
-  }
-
-  .for-employers {
-    color: #000000;
-    text-align: left;
-    font-family: "OpenSans-ExtraBold", sans-serif;
-    font-size: 32px;
-    font-weight: 800;
-    position: absolute;
-    left: calc(50% - 683px);
-    top: calc(50% - 445.5px);
-  }
-
-  .employee-retention-featured-image-scaled-1 {
-    border-radius: 10px;
-    width: 340px;
-    height: 220px;
-    position: absolute;
-    left: calc(50% - 680px);
-    top: calc(50% - 370.5px);
-    object-fit: cover;
-  }
-
-  .e-vaap-stremlines-the-background-check-process-for-employers-by-providing-pre-verified-candidates-this-ensures-authenticity-and-saves-time-making-your-recruitment-process-more-efficient-and-reliable-to-request-an-employment-verification-simply-submit-the-employee-s-name-dates-of-employment-and-the-specific-details-you-wish-to-verify-via-contact-method-e-g-email-or-secure-portal-we-will-process-your-request-promptly-typically-within-our-business-days-and-provide-you-with-the-requested-information-please-ensure-that-you-have-obtained-the-necessary-consent-from-the-individual-prior-to-making-a-request-our-verification-process-prioritizes-confidentiality-and-security-we-are-committed-to-complying-with-all-relevant-privacy-laws-and-handling-all-sensitive-data-with-care-whether-you-re-conducting-a-background-check-processing-a-loan-or-confirming-an-applicant-s-qualifications-we-are-here-to-support-your-verification-needs-efficiently-and-accurately {
-    color: #000000;
-    text-align: left;
-    font-family: "OpenSans-Regular", sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    position: absolute;
-    left: 500px;
-    top: calc(50% - 364.5px);
-    width: 800px;
-    height: 200px;
-
-    line-break:auto;
-    line-height: 25px;
-    /* background-color: #000000; */
-  }
-
-  .for-candidates {
-    color: #000000;
-    text-align: left;
-    font-family: "OpenSans-ExtraBold", sans-serif;
-    font-size: 32px;
-    font-weight: 800;
-    position: absolute;
-    right: 100px;
-    top: calc(50% - 166.5px);
-  }
-
-  .Home-page-images-1 {
-    border-radius: 10px;
-    width: 350;
-    height: 200px;
-    position: absolute;
-    left: calc(50% - -356px);
-    top: calc(50% - 112.5px);
-  }
-
-  .with-evaap-candidates-can-easily-verify-their-identification-and-history-with-hr-departments-this-verification-helps-prioritize-them-among-their-peers-providing-a-competitive-edge-in-the-job-market-to-initiate-a-candidate-verification-employers-can-submit-a-request-that-includes-the-candidate-s-full-name-the-specific-information-they-wish-to-verify-such-as-previous-job-titles-education-or-references-and-any-necessary-consent-forms-our-team-will-promptly-process-the-request-and-provide-accurate-verification-details-typically-within-our-business-days-we-ensure-that-all-information-is-verified-securely-and-in-compliance-with-data-protection-regulations-we-understand-the-importance-of-confidentiality-and-handle-all-candidate-verification-requests-with-the-highest-level-of-security-whether-you-re-looking-to-confirm-work-experience-educational-credentials-or-professional-licenses-our-service-provides-a-trusted-solution-to-help-you-make-the-best-hiring-decisions {
-    color: #000000;
-    text-align: left;
-    font-family: "OpenSans-Regular", sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    position: absolute;
-    left: 100px;
-    top: calc(50% - 105.5px);
-    width: 890px;
-    height: 200px;
-    line-height: 25px;
-    /* background: #000; */
-  }
-
-  .rectangle-10 {
-    background: linear-gradient(to right, rgb(0, 55, 130), rgb(0, 110, 255));
-    width: 97.5vw;
-    height: 90px;
-    margin: 10px;
-    position: absolute;
-    top: calc(50% - -117.5px);
-    border-radius: 6px;
-  }
-
-  .need-an-immediate-verification {
-    color: #fffafa;
-    text-align: left;
-    font-family: "OpenSans-Regular", sans-serif;
-    font-size: 32px;
-    font-weight: 400;
-    position: absolute;
-    top:57.5%;
-    left:5%;
-  }
-
-  .icon-orange-accessible-1 {
-    width: 215px;
-    height: 179px;
-    position: absolute;
-    left: calc(50% - 600px);
-    top: calc(50% - -269.5px);
-    object-fit: cover;
-  }
-
-  .open-24-7-our-online-verification-services-are-available-to-you-24-7-that-s-why-we-offer-24-7-verification-services-for-both-candidates-and-employers-whether-you-need-to-verify-a-job-applicant-s-credentials-employment-history-or-qualifications-or-confirm-details-about-potential-employees-our-team-is-always-available-to-provide-reliable-real-time-verification-we-ensure-that-all-requests-are-handled-promptly-and-securely-giving-you-peace-of-mind-at-any-hour-of-the-day-or-night {
-    color: #000000;
-    text-align: left;
-    font-family: "OpenSans-Regular", sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    position: absolute;
-    left: calc(50% - 600px);
-    top: calc(50% - -459.5px);
-    width: 332px;
-    height: 150px;
-
-    line-height: 25px;
-  }
-
-  .icon-green-quick-fast-immed-1 {
-    width: 169px;
-    height: 206px;
-    position: absolute;
-    left: calc(50% - 123px);
-    top: calc(50% - -243.5px);
-    object-fit: cover;
-
-  }
-
-  .get-instant-results-we-know-that-time-is-valuable-that-s-why-we-partner-with-the-clearinghouse-to-provide-instant-up-to-date-verifications-for-both-candidates-and-employers-our-system-ensures-that-you-receive-accurate-real-time-results-helping-your-business-save-time-and-make-faster-more-informed-decisions-whether-you-need-to-verify-employment-qualifications-or-credentials-you-can-count-on-immediate-access-to-the-most-current-data-available-24-7 {
-    color: #000000;
-    text-align: left;
-    font-family: "OpenSans-Regular", sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    position: absolute;
-    left: calc(50% - 139px);
-    top: calc(50% - -460.5px);
-    width: 306px;
-    height: 186px;
-
-    line-height: 25px;
-  }
-
-  .icon-blue-degree-redcredfraud-1 {
-    width: 227px;
-    height: 207px;
-    position: absolute;
-    left: calc(50% - -356px);
-    top: calc(50% - -243.5px);
-    object-fit: cover;
-  }
-
-  .reduce-credentials-fraud-we-help-you-safeguard-your-business-against-credentials-fraud-by-ensuring-diploma-enrollment-and-degree-authenticity {
-    color: #000000;
-    text-align: left;
-    font-family: "OpenSans-Regular", sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    position: absolute;
-    right: 42px;
-    top: 1448px;
-    width: 340px;
-    height: 204px;
-
-    line-height: 25px;
-  }
-
-  .frame-152 {
-    background: rgb(0, 80, 185);
-    border-radius: 20px;
-    padding: 10px;
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    left: calc(50% - -462px);
-    top: calc(50% - 569.5px);
-
-    width: 120px;
-  }
-
-  .verify {
   
-    color: #ffffff;
-    text-align: left;
-    font-family: "OpenSans-Regular", sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    position: relative;
-  }
-
-  .frame-1522 {
-    background: rgb(0, 0, 0);
-    border-radius: 19px;
-    padding: 10px;
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    right: 120px;
-    top: 57.5%;
-
-    width: 120px;
-  }
-
-  .header-group {
-    position: absolute;
-    inset: 0;
-  }
-
-  .header {
-    background: #dfdfdfaf;
-    border-radius: 7px 7px 0 0;
-    width: 100vw;
-    height: 126px;
-    position: absolute;
-    top: calc(50% - 990.5px);
-    overflow: hidden;
-  }
-
-  .employment-verification-and-academic-proofing {
-    color: #000000;
-    text-align: left;
-    font-family: "Inter-Regular", sans-serif;
-    font-size: 24px;
-    font-weight: 400;
-    position: absolute;
-    left: calc(50% - 315px);
-    top: 19px;
-    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.25);
-  }
-
-  .evaap-logo-2-1-ai-brush-removebg-8-nqsg-4-zr-22 {
-    width: 209px;
-    height: 200px;
-    position: absolute;
-    left: 7px;
-    top: -29px;
-    object-fit: cover;
-  }
-
-  .home {
-    width: 42px;
-    height: 19px;
-    position: absolute;
-    left: calc(50% - 257px);
-    top: 83px;
-
-  }
-
-  .home2 {
-    color: #000000;
-    text-align: left;
-    font-family: "OpenSans-Regular", sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    position: absolute;
-    right: -9.52%;
-    left: 0%;
-    width: 109.52%;
-    bottom: -5.26%;
-    top: -10.53%;
-    height: 115.79%;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    transform:scale();
-  }
-  .home2:hover{
-
-  translate: 5px;  }
-  .contact-us {
-    width: 74px;
-    height: 19px;
-    position: absolute;
-    left: calc(50% - 153px);
-    top: 83px;
-  }
-
-  .contact-us2 {
-    color: #000000;
-    text-align: left;
-    font-family: "OpenSans-Regular", sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    position: absolute;
-    right: -9.46%;
-    left: 0%;
-    width: 109.46%;
-    bottom: -5.26%;
-    top: -10.53%;
-    height: 115.79%;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    transform:scale();
-  }
-  .contact-us2:hover{
-
-  translate: 5px;  }
-  .about-us {
-    width: 63px;
-    height: 19px;
-    position: absolute;
-    left: calc(50% - -4px);
-    top: 83px;
-  }
-
-  .about-us2 {
-    color: #000000;
-    text-align: left;
-    font-family: "OpenSans-Regular", sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    position: absolute;
-    right: -9.52%;
-    left: 0%;
-    width: 130%;
-    bottom: -5.26%;
-    top: -10.53%;
-    height: 120%;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-
-    transform:scale();
-  }
-  .about-us2:hover{
-
-  translate: 5px;  }
-  .our-services {
-    width: 85px;
-    height: 19px;
-    position: absolute;
-    left: calc(50% - -150px);
-    top: 83px;
-  }
-
-  .our-services2 {
-    color: #000000;
-    text-align: left;
-    font-family: "OpenSans-Regular", sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    position: absolute;
-    right: -10.59%;
-    left: 0%;
-    width: 110.59%;
-    bottom: -5.26%;
-    top: -10.53%;
-    height: 115.79%;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    transform:scale();
-  }
-  .our-services2:hover{
-
-  translate: 5px;  }
-
-
-  .our-founders{
-    width: 105px;
-    height: 19px;
-    position: absolute;
-    right: 370px;
-    top: 83px;
-    text-decoration: none;
-      color: #000000;
-      font-family: sans-serif;
-  }
-
-  .our-founders2 {
-    color: #000000;
-    text-align: left;
-    font-family: "OpenSans-Regular", sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    position: absolute;
-    right: -10.59%;
-    left: 0%;
-    width: 110.59%;
-    bottom: -5.26%;
-    top: -10.53%;
-    height: 115.79%;
-    display: flex;
-    align-items: center;
-
-    text-decoration: none;
-    justify-content: flex-start;
-    transform:scale();
-  }
-  .our-founders2:hover{
-
-  translate: 5px;  }
-  #lang {
-    background: #ffffff;
-    border-style: solid;
-    border-color: #94949465;
-    border-radius: 7px;
-    border-width: 1px;
-    width: 110px;
-    height: 30px;
-    position: absolute;
-    left: 81%;
-    top: 17px;
-
-    padding-left: 9px;
-  }
-  .help {
-    background: #fcfcfc;
-    border-style: solid;
-    border-color: #94949465;
-    border-radius: 7px;
-    border-width: 1px;
-    width: 110px;
-    height: 30px;
-    position: absolute;
-    left: 90%;
-    top: 17px;
-  }
-
-  .help2 {
-    color: #000000;
-    text-align: center;
-    font-family: "OpenSans-Regular", sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    position: absolute;
-    right: 0%;
-    left: 0%;
-    width: 100%;
-    bottom: 0%;
-    top: 0%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .login {
-    background: #fdfdfd;
-    border-style: solid;
-    border-color: #94949465;
-    border-radius: 7px;
-    border-width: 1px;
-    width: 110px;
-    height: 35px;
-    position: absolute;
-    left: 90%;
-    top: 71px;
-    display: block;
-  }
-
-  .login2 {
-    color: #000000;
-    text-align: left;
-    font-family: "OpenSans-Regular", sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    position: absolute;
-    right: -28.18%;
-    left: 28.18%;
-    width: 100%;
-    bottom: 0%;
-    top: 0%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-  }
-
-  .group-33 {
-    position: absolute;
-    inset: 0;
-  }
-
-  .fotter {
-    width: 100%;
-    height: 130px;
-    position: static;
-  }
-
-  .fotter2 {
-    background: #e2e2e4;
-    width: 100%;
-    height: 130px;
-    position: absolute;
-    bottom: 0;
-    overflow: hidden;
-    border-radius: 0 0 10px 10px;
-  }
-
-  .evaap-logo-2-1-ai-brush-removebg-8-nqsg-4-zr-222 {
-    width: 181px;
-    height: 126px;
-    position: absolute;
-    left: 11px;
-    top: 2px;
-    object-fit: cover;
-
-  }
-  #tooltip{
-    background-color: #010101;
-    color: #e2e2e4;
-    position: absolute;
-    top: 10px;
-    width: 75px;
-    padding: 1px;
-    border-radius: 5px;
-    visibility: hidden;
-    opacity: 0;
-    transition: opacity 0.3s;
-  }
-  .evaap-logo-2-1-ai-brush-removebg-8-nqsg-4-zr-222 :hover #tooltip{
-    visibility:visible;
-    opacity: 1;
-}
-
-  .no-179-down-street-new-york-xxxxxxxxxxx-usa-600096 {
-    color: #000000;
-    text-align: left;
-    font-family: "OpenSans-Regular", sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    position: absolute;
-    left: calc(50% - -31px);
-    top: 34px;
-    width: 246.37px;
-    height: 128px;
-  }
-
-  .home3 {
-    width: 42px;
-    height: 19px;
-    position: absolute;
-    left: calc(50% - 454px);
-    top: 40px;
-  }
-
-  .contact-us3 {
-    width: 74px;
-    height: 19px;
-    position: absolute;
-    left: calc(50% - 454px);
-    top: 60px;
-  }
-
-  .about-us3 {
-    width: 63px;
-    height: 19px;
-    position: absolute;
-    left: calc(50% - 453px);
-    top: 81px;
-  }
-
-  .our-services3 {
-    width: 85px;
-    height: 19px;
-    position: absolute;
-    left: calc(50% - 454px);
-    top: 102px;
-  }
-
-  .fa-qs {
-    width: 63px;
-    height: 22px;
-    position: absolute;
-    left: calc(50% - 184px);
-    top: 51px;
-  }
-
-  .fa-qs2 {
-    color: #000000;
-    text-align: left;
-    font-family: "OpenSans-Regular", sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    position: absolute;
-    right: 0%;
-    left: 0%;
-    width: 100%;
-    bottom: 0%;
-    top: 0%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-  }
-
-  .carrer {
-    width: 62px;
-    height: 17px;
-    position: absolute;
-    left: calc(50% - 184px);
-    top: 78px;
-  }
-
-  .carrer2 {
-    color: #000000;
-    text-align: left;
-    font-family: "OpenSans-Regular", sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    position: absolute;
-    right: 0%;
-    left: 0%;
-    width: 100%;
-    bottom: 0%;
-    top: 0%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-  }
-
-  .announces {
-    width: 86px;
-    height: 18px;
-    position: absolute;
-    left: calc(50% - 185px);
-    top: 98px;
-  }
-
-  .announces2 {
-    color: #000000;
-    text-align: left;
-    font-family: "OpenSans-Regular", sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    position: absolute;
-    right: 0%;
-    left: 0%;
-    width: 100%;
-    bottom: 0%;
-    top: 0%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-  }
-
-  .instagram-circle {
-    width: 40px;
-    height: 40px;
-    position: absolute;
-    left: 1111px;
-    top: 46px;
-  }
-
-  .instagram-circle2 {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    right: 0%;
-    left: 0%;
-    bottom: 0%;
-    top: 0%;
-    object-fit: cover;
-  }
-
-  .linked-in-circled {
-    width: 40px;
-    height: 40px;
-    position: absolute;
-    left: 1195px;
-    top: 46px;
-  }
-
-  .linked-in-circled2 {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    right: 0%;
-    left: 0%;
-    bottom: 0%;
-    top: 0%;
-    object-fit: cover;
-  }
-
-  .quick-links {
-    width: 113px;
-    height: 22px;
-    position: absolute;
-    left: 265px;
-    top: 5px;
-  }
-
-  .quick-links2 {
-    color: #000000;
-    text-align: left;
-    font-family: "OpenSans-Regular", sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    position: absolute;
-    right: 0%;
-    left: 0%;
-    width: 100%;
-    bottom: 0%;
-    top: 0%;
-    height: 100%;
-  }
-
-  .tools {
-    width: 50px;
-    height: 27px;
-    position: absolute;
-    left: 535px;
-    top: 5px;
-  }
-
-  .tools2 {
-    color: #000000;
-    text-align: left;
-    font-family: "OpenSans-Regular", sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    position: absolute;
-    right: -10%;
-    left: 0%;
-    width: 110%;
-    bottom: 0%;
-    top: 0%;
-    height: 100%;
-  }
-
-  .contact-us4 {
-    width: 111px;
-    height: 27px;
-    position: absolute;
-    left: 751px;
-    top: 5px;
-  }
-
-  .contact-us5 {
-    color: #000000;
-    text-align: left;
-    font-family: "OpenSans-Regular", sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    position: absolute;
-    right: 0%;
-    left: 0%;
-    width: 100%;
-    bottom: 0%;
-    top: 0%;
-    height: 100%;
-  }
-
-  .follow-us {
-    width: 181px;
-    height: 44px;
-    position: absolute;
-    left: 1111px;
-    top: 0px;
-  }
-
-  .follow-us2 {
-    color: #000000;
-    text-align: left;
-    font-family: "OpenSans-Regular", sans-serif;
-    font-size: 26px;
-    font-weight: 400;
-    position: absolute;
-    right: 0%;
-    left: 0%;
-    width: 100%;
-    bottom: 0%;
-    top: 30%;
-    height: 100%;
-  }
-
-
-
-
-
-.twitter {
-    width: 40px;
-    height: 40px;
-    position: absolute;
-    right: 155px;
-    bottom: 44px;
-  }
-
-  .twitter2 {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    right: 0%;
-    left: 0%;
-    bottom: 0%;
-    top: 0%;
-    object-fit: cover;
-  }
-
-
-  .image-7 {
-    width: 1440px;
-    height: 496px;
-    position: absolute;
-    left: calc(50% - 720px);
-    top: calc(50% - -861.5px);
-    transform-origin: 0 0;
-    transform: rotate(0deg) scale(1, -1);
-    object-fit: cover;
-  }
 </style>
 
 <body>
@@ -1077,31 +140,30 @@ html, body {
             src="./Home page/images/EVAAP_LOGO_2.1-ai-brush-removebg-8nqsg4zr.png" />
 
           </a>
+         
 
         <div class="home">
-          
-            <div class="home2" id="alertParagraph"><a href="./index.html">Home</div>
-          </a>
-        </div>
-        <div class="contact-us">
-          
-            <div class="contact-us2"><a href="./contact us.html">Contact Us</div>
-          </a>
-        </div>
-        <div class="about-us">
-          
-            <div class="about-us2"><a href="./about us page.html">About Us</div>
-          </a>
-        </div>
-        <div class="our-services">
-          
-            <div class="our-services2"><a href="./service page.html">Our Services</div>
-          </a>
-        </div>
-        <div class="our-founders">
-          
-            <div class="our-our-founders2"><a href="./our founders.html">Our Founders</div>
-          </a>
+          <div class="position">
+    
+            <ul>
+                <li class="li1">
+                    <a class="color"href="./index.html">Home</a>
+                </li>
+                <li class="li1">
+                    <a class="color"  href="./contact us.html">Contact Us</a>
+                </li>
+                <li class="li1">
+                    <a class="color" href="./about us page.html">About Us</a>
+                </li>
+                <li class="li1">
+                    <a  class="color"  href="./service page.html"> Our Services</a>
+                </li>
+                <li class="li1">
+                    <a class="color" href="./our founders.html">Our Founders</a>
+                </li>
+            </ul>
+            </div>
+           
         </div>
         <select id="lang" name="fruits">
           <option value="apple">Languages</option>
@@ -1133,66 +195,71 @@ html, body {
               <p id="tooltip">Go To Top</p>
             </a>
           <a href="https://maps.app.goo.gl/AZg1Rxsktv8cs1Nq5">
-            <div class="no-179-down-street-new-york-xxxxxxxxxxx-usa-600096">
-              prashanthi hills
-              <br />
-              meerpet pincode-500058
-              
-              <br />
-              Hyderabad
-              <br />
-              Telangana,India
-            </div>
+            <div class="position4">
+    
+              <ul>
+                  <li class="li4">
+                      <a class="main4">Contact Us:</a>
+                  </li>
+                  <li class="li4">
+                      <a class="color4"href="login.php">Prashanthi hills</a>
+                  </li>
+                  <li class="li4">
+                      <a class="color4"  href="register.php">Meerpet pin code:500058</a>
+                  </li>
+                  <li class="li4">
+                      <a class="color4" href="register.php">Hyderabad</a>
+                  </li>
+                  <li class="li4">
+                      <a  class="color4"  href="register.php"> Telangana, India</a>
+                  </li>
+                 
+              </ul>
+              </div>
         </a>
-          <div class="home3">
-            <a href="./index.html">
-              <div class="home2" id="alertParagraph">Home</div>
-            </a>
+        <div class="position2">
+    
+          <ul>
+              <li class="li2">
+                  <a class="main2">Quick links</a>
+              </li>
+              <li class="li2">
+                  <a class="color2"href="login.php">home</a>
+              </li>
+              <li class="li2">
+                  <a class="color2"  href="register.php">Contact Us</a>
+              </li>
+              <li class="li2">
+                  <a class="color2" href="register.php">About Us</a>
+              </li>
+              <li class="li2">
+                  <a  class="color2"  href="register.php"> Our Services</a>
+              </li>
+             
+          </ul>
           </div>
-          <div class="contact-us3">
-            <a href="./contact us.html">
-              <div class="contact-us2">Contact Us</div>
-            </a>
-          </div>
-          <div class="about-us3">
-            <a href="./about us page.html">
-              <div class="about-us2">About Us</div>
-            </a>
-          </div>
-          <div class="our-services3">
-            <a href="./service page.html">
-              <div class="our-services2">Our Services</div>
-            </a>
-          </div>
-          <div class="fa-qs">
-            <a href="https://www.example.com">
-              <div class="fa-qs2">FAQs</div>
-            </a>
-          </div>
-          <div class="carrer">
-            <a href="https://www.example.com">
-              <div class="carrer2">Carrer</div>
-            </a>
-          </div>
-          <div class="announces">
-            <a href="https://www.example.com">
-              <div class="announces2">Announces</div>
-            </a>
-          </div>
+          <div class="position3">
+    
+            <ul>
+                <li class="li3">
+                    <a class="main3">Tools</a>
+                </li>
+                <li class="li3">
+                    <a class="color3"href="login.php">FAQ's</a>
+                </li>
+                <li class="li3">
+                    <a class="color3"  href="register.php">Carrer</a>
+                </li>
+                <li class="li3">
+                    <a class="color3" href="register.php">Announces</a>
+                </li>              
+            </ul>
+            </div>
           <div class="instagram-circle">
             <img class="instagram-circle2" src="./Home page/images/instagram-circle.png" />
           </div>
           <div class="linked-in-circled">
             <img class="linked-in-circled2" src="./Home page/images/linkedin-circled.png" />
-          </div>
-          <div class="quick-links">
-            <div class="quick-links2">Quick Links:</div>
-          </div>
-          <div class="tools">
-            <div class="tools2">Tools:</div>
-          </div>
-          <div class="contact-us4">
-            <div class="contact-us5">Contact Us:</div>
           </div>
           <div class="follow-us">
             <div class="follow-us2">Follow Us:</div>

@@ -1,0 +1,709 @@
+a{
+    text-decoration: none;
+    color: #000000;
+  }
+  a:hover{
+    color: #a109c0;
+  }
+  /* Reset default browser padding and margin */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+  .home-page{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+  }
+
+  .home-page {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+  }
+
+
+  .home-page2 {
+    background: #ffffff;
+    width: 100vw;
+    height: 1980px;
+    position: relative;
+  }
+
+  .frame-158 {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 1453px;
+    position: absolute;
+    left: calc(50% - 723px);
+    top: calc(50% - 489.5px);
+  }
+
+  .image-6 {
+    width: 100vw;
+    height: 597px;
+    position: relative;
+    opacity: 0%;
+  }
+
+  .rectangle-8 {
+    width: 100vw;
+    height: 389px;
+    position: absolute;
+    top: calc(50% - 868.5px);
+    object-fit: cover;
+    opacity: 100%;
+                                        /* we change blur of the banner here */
+    filter: blur(2px);
+  }
+
+  .verify-with-evaap-trusted-verification {
+    color: #ffffff;
+    text-align: left;
+    position: absolute;
+    left: 127px;
+    top: 245px;
+  }
+
+  .verify-with-evaap-trusted-verification-span {
+    color: #ffffff;
+    font-family: "OpenSans-Regular", sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+  }
+
+  .verify-with-evaap-trusted-verification-span2 {
+    color: #ffffff;
+    font-family: "OpenSans-Regular", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+  }
+
+  .verify-with-evaap-trusted-verification-span3 {
+    color: #fffafa;
+    font-family: "OpenSans-Regular", sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+  }
+
+  .verify-with-evaap-trusted-verification-span4 {
+    color: #ffffff;
+    font-family: "OpenSans-Regular", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+  }
+
+  .evaap-is-your-trusted-partener-for-employment-verification-and-academic-proofing-we-ensure-that-your-credentials-are-accurately-verified-providing-peace-of-mind-for-both-employers-and-educational-institutions-our-streamlined-process-is-designed-to-be-efficient-and-reliable-making-it-easier-for-you-to-get-the-verification-you-need-quickly-and-securely {
+    color: #fffafa;
+    text-align: center;
+    font-family: "OpenSans-Regular", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height:30px ;
+    line-break: auto;
+
+ position: relative;
+    left: 500px;
+    top: 233px;
+    width: 650px;
+    height: 100px;
+
+    /* background: #000; */
+  }
+
+  .for-employers {
+    color: #000000;
+    text-align: left;
+    font-family: "OpenSans-ExtraBold", sans-serif;
+    font-size: 32px;
+    font-weight: 800;
+    position: absolute;
+    top: 27%;
+    left: 2%;
+  }
+
+  .employee-retention-featured-image-scaled-1 {
+    border-radius: 10px;
+    width: 340px;
+    height: 220px;
+    position: absolute;
+    top: 30%;
+    left: 1%;
+    object-fit: cover;
+  }
+
+  .e-vaap-stremlines-the-background-check-process-for-employers-by-providing-pre-verified-candidates-this-ensures-authenticity-and-saves-time-making-your-recruitment-process-more-efficient-and-reliable-to-request-an-employment-verification-simply-submit-the-employee-s-name-dates-of-employment-and-the-specific-details-you-wish-to-verify-via-contact-method-e-g-email-or-secure-portal-we-will-process-your-request-promptly-typically-within-our-business-days-and-provide-you-with-the-requested-information-please-ensure-that-you-have-obtained-the-necessary-consent-from-the-individual-prior-to-making-a-request-our-verification-process-prioritizes-confidentiality-and-security-we-are-committed-to-complying-with-all-relevant-privacy-laws-and-handling-all-sensitive-data-with-care-whether-you-re-conducting-a-background-check-processing-a-loan-or-confirming-an-applicant-s-qualifications-we-are-here-to-support-your-verification-needs-efficiently-and-accurately {
+    color: #000000;
+    text-align: left;
+    font-family: "OpenSans-Regular", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    position: absolute;
+    left: 30%;
+    top: 30%;
+    width: 800px;
+    height: 200px;
+
+    line-break:auto;
+    line-height: 25px;
+    /* background-color: #000000; */
+  }
+
+  .for-candidates {
+    color: #000000;
+    text-align: left;
+    font-family: "OpenSans-ExtraBold", sans-serif;
+    font-size: 32px;
+    font-weight: 800;
+    position: absolute;
+    right: 2%;
+    top: 40%;
+  }
+
+  .Home-page-images-1 {
+    border-radius: 10px;
+    width: 350;
+    height: 200px;
+    position: absolute;
+    top: 43%;
+    right: 1%;
+  }
+
+  .with-evaap-candidates-can-easily-verify-their-identification-and-history-with-hr-departments-this-verification-helps-prioritize-them-among-their-peers-providing-a-competitive-edge-in-the-job-market-to-initiate-a-candidate-verification-employers-can-submit-a-request-that-includes-the-candidate-s-full-name-the-specific-information-they-wish-to-verify-such-as-previous-job-titles-education-or-references-and-any-necessary-consent-forms-our-team-will-promptly-process-the-request-and-provide-accurate-verification-details-typically-within-our-business-days-we-ensure-that-all-information-is-verified-securely-and-in-compliance-with-data-protection-regulations-we-understand-the-importance-of-confidentiality-and-handle-all-candidate-verification-requests-with-the-highest-level-of-security-whether-you-re-looking-to-confirm-work-experience-educational-credentials-or-professional-licenses-our-service-provides-a-trusted-solution-to-help-you-make-the-best-hiring-decisions {
+    color: #000000;
+    text-align: left;
+    font-family: "OpenSans-Regular", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    position: absolute;
+    top: 45%;
+    left: 2%;
+    width: 890px;
+    height: 200px;
+    line-height: 25px;
+    /* background: #000; */
+  }
+
+  .rectangle-10 {
+    background: linear-gradient(to right, rgb(0, 55, 130), rgb(0, 110, 255));
+    width: 97.5vw;
+    height: 90px;
+    margin: 10px;
+    position: absolute;
+    top: calc(50% - -117.5px);
+    border-radius: 6px;
+  }
+
+  .need-an-immediate-verification {
+    color: #fffafa;
+    text-align: left;
+    font-family: "OpenSans-Regular", sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    position: absolute;
+    top:57.5%;
+    left:5%;
+  }
+
+  .icon-orange-accessible-1 {
+    width: 215px;
+    height: 179px;
+    position: absolute;
+    left: calc(50% - 600px);
+    top: calc(50% - -269.5px);
+    object-fit: cover;
+  }
+
+  .open-24-7-our-online-verification-services-are-available-to-you-24-7-that-s-why-we-offer-24-7-verification-services-for-both-candidates-and-employers-whether-you-need-to-verify-a-job-applicant-s-credentials-employment-history-or-qualifications-or-confirm-details-about-potential-employees-our-team-is-always-available-to-provide-reliable-real-time-verification-we-ensure-that-all-requests-are-handled-promptly-and-securely-giving-you-peace-of-mind-at-any-hour-of-the-day-or-night {
+    color: #000000;
+    text-align: left;
+    font-family: "OpenSans-Regular", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    position: absolute;
+    left: calc(50% - 600px);
+    top: calc(50% - -459.5px);
+    width: 332px;
+    height: 150px;
+
+    line-height: 25px;
+  }
+
+  .icon-green-quick-fast-immed-1 {
+    width: 169px;
+    height: 206px;
+    position: absolute;
+    left: calc(50% - 123px);
+    top: calc(50% - -243.5px);
+    object-fit: cover;
+
+  }
+
+  .get-instant-results-we-know-that-time-is-valuable-that-s-why-we-partner-with-the-clearinghouse-to-provide-instant-up-to-date-verifications-for-both-candidates-and-employers-our-system-ensures-that-you-receive-accurate-real-time-results-helping-your-business-save-time-and-make-faster-more-informed-decisions-whether-you-need-to-verify-employment-qualifications-or-credentials-you-can-count-on-immediate-access-to-the-most-current-data-available-24-7 {
+    color: #000000;
+    text-align: left;
+    font-family: "OpenSans-Regular", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    position: absolute;
+    left: calc(50% - 139px);
+    top: calc(50% - -460.5px);
+    width: 306px;
+    height: 186px;
+
+    line-height: 25px;
+  }
+
+  .icon-blue-degree-redcredfraud-1 {
+    width: 227px;
+    height: 207px;
+    position: absolute;
+    left: calc(50% - -356px);
+    top: calc(50% - -243.5px);
+    object-fit: cover;
+  }
+
+  .reduce-credentials-fraud-we-help-you-safeguard-your-business-against-credentials-fraud-by-ensuring-diploma-enrollment-and-degree-authenticity {
+    color: #000000;
+    text-align: left;
+    font-family: "OpenSans-Regular", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    position: absolute;
+    right: 42px;
+    top: 1448px;
+    width: 340px;
+    height: 204px;
+
+    line-height: 25px;
+  }
+
+  .frame-152 {
+    background: rgb(0, 80, 185);
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: calc(50% - -462px);
+    top: calc(50% - 569.5px);
+
+    width: 120px;
+  }
+
+  .verify {
+  
+    color: #ffffff;
+    text-align: left;
+    font-family: "OpenSans-Regular", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+  }
+
+  .frame-1522 {
+    background: rgb(0, 0, 0);
+    border-radius: 19px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 120px;
+    top: 57.5%;
+
+    width: 120px;
+  }
+
+  .header-group {
+    position: absolute;
+    inset: 0;
+  }
+
+  .header {
+    background: #dfdfdfaf;
+    border-radius: 7px 7px 0 0;
+    width: 100vw;
+    height: 126px;
+    position: absolute;
+    top: calc(50% - 990.5px);
+    overflow: hidden;
+  }
+
+  .employment-verification-and-academic-proofing {
+    color: #000000;
+    text-align: left;
+    font-family: "Inter-Regular", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    position: absolute;
+    left: calc(43% - 315px);
+    top: 19px;
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.25);
+  }
+
+  .evaap-logo-2-1-ai-brush-removebg-8-nqsg-4-zr-22 {
+    width: 209px;
+    height: 200px;
+    position: absolute;
+    left: 7px;
+    top: -29px;
+    object-fit: cover;
+  }
+
+  .li1{
+    display: flex;
+    display: inline;
+    margin: 40px;
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    
+}
+
+.position{
+    position:absolute;
+    top: 70%;
+    left: 18%;
+    right: 0;
+    
+}
+.color{
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+}
+.color:hover{
+    color: red;
+    text-decoration: underline rgb(111, 191, 220);
+
+}
+  #lang {
+    background: #ffffff;
+    border-style: solid;
+    border-color: #94949465;
+    border-radius: 7px;
+    border-width: 1px;
+    width: 110px;
+    height: 30px;
+    position: absolute;
+    left: 78%;
+    top: 17px;
+
+    padding-left: 9px;
+  }
+  .help {
+    background: #fcfcfc;
+    border-style: solid;
+    border-color: #94949465;
+    border-radius: 7px;
+    border-width: 1px;
+    width: 110px;
+    height: 30px;
+    position: absolute;
+    left: 90%;
+    top: 17px;
+  }
+
+  .help2 {
+    color: #000000;
+    text-align: center;
+    font-family: "OpenSans-Regular", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    width: 100%;
+    bottom: 0%;
+    top: 0%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .login {
+    background: #fdfdfd;
+    border-style: solid;
+    border-color: #94949465;
+    border-radius: 7px;
+    border-width: 1px;
+    width: 110px;
+    height: 35px;
+    position: absolute;
+    left: 90%;
+    top: 71px;
+    display: block;
+  }
+
+  .login2 {
+    color: #000000;
+    text-align: left;
+    font-family: "OpenSans-Regular", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    position: absolute;
+    right: -28.18%;
+    left: 28.18%;
+    width: 100%;
+    bottom: 0%;
+    top: 0%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .group-33 {
+    position: absolute;
+    inset: 0;
+  }
+  .li2{
+    margin:1px;
+     list-style-type: none;
+     text-decoration: none;
+     color: black;
+     
+ }
+ .position2{
+     position:absolute;
+     top: 2%;
+     left: 17%;
+   
+     
+ }
+ .color2{
+     color: black;
+     text-decoration: none;
+     font-size: 15px;
+ }
+ .color2:hover{
+     color: red;
+     text-decoration: underline rgb(111, 191, 220);
+
+ }
+ .main2{
+     font-size: 20px;
+ }
+ .li3{
+    margin:1px;
+     list-style-type: none;
+     text-decoration: none;
+     color: black;
+     
+ }
+ 
+ .position3{
+     position:absolute;
+     top: 2%;
+     left: 35%;
+     right: 0;
+     
+ }
+ .color3{
+     color: black;
+     text-decoration: none;
+     font-size: 15px;
+ }
+ .color3:hover{
+     color: red;
+     text-decoration: underline rgb(111, 191, 220);
+
+ }
+ .main3{
+     font-size: 20px;
+ }
+ .li4{
+    margin:1px;
+     list-style-type: none;
+     text-decoration: none;
+     color: black;
+     
+ }
+ 
+ .position4{
+     position:absolute;
+     top: 2%;
+     left: 48%;
+ }
+ .color4{
+     color: black;
+     text-decoration: none;
+     font-size: 15px;
+ }
+ .color4:hover{
+     color: red;
+     text-decoration: underline rgb(111, 191, 220);
+
+ }
+ .main4{
+     font-size: 20px;
+ }
+
+  .fotter {
+    width: 100%;
+    height: 130px;
+    position: static;
+  }
+
+  .fotter2 {
+    background: #e2e2e4;
+    width: 100%;
+    height: 130px;
+    position: absolute;
+    overflow: hidden;
+    border-radius: 0 0 10px 10px;
+  }
+
+  .evaap-logo-2-1-ai-brush-removebg-8-nqsg-4-zr-222 {
+    width: 181px;
+    height: 126px;
+    position: absolute;
+    left: 11px;
+    top: 2px;
+    object-fit: cover;
+
+  }
+  #tooltip{
+    background-color: #010101;
+    color: #e2e2e4;
+    position: absolute;
+    top: 10px;
+    width: 75px;
+    padding: 1px;
+    border-radius: 5px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  .evaap-logo-2-1-ai-brush-removebg-8-nqsg-4-zr-222 :hover #tooltip{
+    visibility:visible;
+    opacity: 1;
+}
+
+  .no-179-down-street-new-york-xxxxxxxxxxx-usa-600096 {
+    color: #000000;
+    text-align: left;
+    font-family: "OpenSans-Regular", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    position: absolute;
+    left: calc(50% - -31px);
+    top: 34px;
+    width: 246.37px;
+    height: 128px;
+  }
+
+  .instagram-circle {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 10%;
+    top: 46px;
+  }
+
+  .instagram-circle2 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    bottom: 0%;
+    top: 0%;
+    object-fit: cover;
+  }
+
+  .linked-in-circled {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 15%;
+    top: 46px;
+  }
+
+  .linked-in-circled2 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    bottom: 0%;
+    top: 0%;
+    object-fit: cover;
+  }
+
+  
+  .follow-us {
+    width: 181px;
+    height: 44px;
+    position: absolute;
+    left: 80%;
+    top: -6%;
+  }
+
+  .follow-us2 {
+    color: #000000;
+    text-align: left;
+    font-family: "OpenSans-Regular", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    width: 100%;
+    bottom: 0%;
+    top: 30%;
+    height: 100%;
+  }
+.twitter {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 20%;
+    bottom: 44px;
+  }
+
+  .twitter2 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    bottom: 0%;
+    top: 0%;
+    object-fit: cover;
+  }
+
+
+  .image-7 {
+    width: 1440px;
+    height: 496px;
+    position: absolute;
+    left: calc(50% - 720px);
+    top: calc(50% - -861.5px);
+    transform-origin: 0 0;
+    transform: rotate(0deg) scale(1, -1);
+    object-fit: cover;
+  }
