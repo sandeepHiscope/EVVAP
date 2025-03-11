@@ -340,7 +340,7 @@ html, body {
     position: absolute;
     inset: 0;
   }
-
+/* header css */
   .header {
     background: #dfdfdfaf;
     border-radius: 7px 7px 0 0;
@@ -480,6 +480,7 @@ html, body {
     position: absolute;
     inset: 0;
   }
+  /* header css completed */
   .li2{
     margin:1px;
      list-style-type: none;

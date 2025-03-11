@@ -1,0 +1,254 @@
+*{
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+}
+.header {
+    background: #dfdfdfaf;
+    border-radius: 7px 7px 0 0;
+    width: 100%;
+    height: 20%;
+    position: absolute;
+    top: 0%;
+    left: 0;
+    overflow: hidden;
+  }
+
+  .employment-verification-and-academic-proofing {
+    color: #000000;
+    text-align: left;
+    font-family: "Inter-Regular", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    position: absolute;
+    left: calc(43% - 315px);
+    top: 19px;
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.25);
+  }
+
+  .evaap-logo-2-1-ai-brush-removebg-8-nqsg-4-zr-22 {
+    width: 209px;
+    height: 200px;
+    position: absolute;
+    left: 7px;
+    top: -29px;
+    object-fit: cover;
+  }
+
+  .li1{
+    display: flex;
+    display: inline;
+    margin: 40px;
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    
+}
+
+.position{
+    position:absolute;
+    top: 70%;
+    left: 18%;
+    right: 0;
+    
+}
+.color{
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+}
+.color:hover{
+    color: red;
+    text-decoration: underline rgb(111, 191, 220);
+
+}
+  #lang {
+    background: #ffffff;
+    border-style: solid;
+    border-color: #94949465;
+    border-radius: 7px;
+    border-width: 1px;
+    width: 110px;
+    height: 30px;
+    position: absolute;
+    left: 78%;
+    top: 17px;
+
+    padding-left: 9px;
+  }
+  .help {
+    background: #fcfcfc;
+    border-style: solid;
+    border-color: #94949465;
+    border-radius: 7px;
+    border-width: 1px;
+    width: 110px;
+    height: 30px;
+    position: absolute;
+    left: 90%;
+    top: 17px;
+  }
+
+  .help2 {
+    color: #000000;
+    text-align: center;
+    font-family: "OpenSans-Regular", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    width: 100%;
+    bottom: 0%;
+    top: 0%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .login {
+    background: #fdfdfd;
+    border-style: solid;
+    border-color: #94949465;
+    border-radius: 7px;
+    border-width: 1px;
+    width: 110px;
+    height: 35px;
+    position: absolute;
+    left: 90%;
+    top: 71px;
+    display: block;
+  }
+
+  .login2 {
+    color: #000000;
+    text-align: left;
+    font-family: "OpenSans-Regular", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    position: absolute;
+    right: -28.18%;
+    left: 28.18%;
+    width: 100%;
+    bottom: 0%;
+    top: 0%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .group-33 {
+    position: absolute;
+    inset: 0;
+  }
+  /* header part css completed */
+  /* bannersection css started */
+  .bannersection{
+     position: absolute;
+     top: 20%;
+     left: 0%;
+     right: 0%;
+     width: 100%;
+     height: 70%;
+     z-index: -1;
+     opacity: 85%;
+  }
+  .bannercontent{
+    position: absolute;
+    top: 43%;
+    left: 10%;
+    color: #000000;
+    font-size: 20px;
+
+  }
+  .bannersectionbutton{
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+  }
+  .bannersectionbutton:hover{
+    background-color: aqua;
+    height: 42px;
+    width: 102px;
+  }
+  .mainstart{
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .mainimage1{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 100%;
+    left: 5%;
+  }
+  .maintext1{
+    position: absolute;
+    top: 110%;
+    left: 40%;
+    width: 50%;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  /* banner 2 starts */
+  .bannercontainer2{
+    position: absolute;
+    top: 150%;
+    height: 60%;
+    width: 100%;
+    border: 1px solid black;
+  }
+  .bannercontainer2heading{
+    position: absolute;
+    top: 10%;
+    left: 8%;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .bannercontainer2image{
+    position: absolute;
+    top: 12%;
+    right: 8%;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+  }
+  .bannercontainer2text{
+    position: absolute;
+    top: 30%;
+    right: 40%;
+    width:50%;
+  }
+  /* banner 3 starts */
+  .bannercontainer3{
+    position: absolute;
+    top: 210%;
+    height: 40%;
+    width: 100%;
+    border: 1px solid black;
+  }
+  .bannercontainer3head{
+    position:absolute;
+    top: 3%;
+    left: 40%;
+    font-size: 20px;
+    font-weight: bold;
+  }
+.bannercontainer3text{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+
+}
+.bannercontainer4{
+
+    
+}
+
