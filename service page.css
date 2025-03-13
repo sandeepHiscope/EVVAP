@@ -27,7 +27,7 @@ body {
   font-size: 24px;
   font-weight: 400;
   position: absolute;
-  left: 50%;
+  left: 45%;
   transform: translateX(-50%);
   top: 19px;
   -webkit-text-stroke: 1px rgba(0, 0, 0, 0.25);
@@ -54,7 +54,7 @@ body {
 .position {
   position: absolute;
   top: 70%;
-  left: 0;
+  left: 15%;
   right: 0;
 }
 
@@ -78,7 +78,7 @@ body {
   width: 100px;
   height: 30px;
   position: absolute;
-  left: 75%;
+  left: 80%;
   top: 17px;
   padding-left: 9px;
 }
@@ -92,7 +92,7 @@ body {
   width: 90px;
   height: 30px;
   position: absolute;
-  left: 85%;
+  left: 90%;
   top: 17px;
 }
 
@@ -323,14 +323,16 @@ body {
   border-radius: 50%;
 }
 
-ul {
+.ul3 {
   position: absolute;
   top: 40%;
   left: 20%;
   width: 80%;
+  height: 200px;
+  
 }
 
-li {
+.li3 {
   display: inline;
   margin: 5%;
 }
@@ -628,103 +630,55 @@ li {
   transform: rotate(0deg) scale(1, -1);
   object-fit: cover;
 }
-.position4{
-  position:absolute;
-  top: 2%;
-  left: 48%;
-}
-.color4{
-  color: black;
-  text-decoration: none;
-  font-size: 15px;
-}
-.color4:hover{
-  color: red;
-  text-decoration: underline rgb(111, 191, 220);
+.ul11{
+position: absolute;
+left: 20%;
+ top: 10%;
+ list-style: none;
+ color: #000000;
 
 }
-.main4{
+.heading1{
+  color: #000000;
+  text-decoration: none;
   font-size: 20px;
 }
-.li2{
-   list-style-type: none;
-   text-decoration: none;
-   color: black;
-   border: 1px solid black;
-   
+.subheading1{
+  color: #000000;
+  text-decoration: none;
 }
-.position2{
-   position:absolute;
-   top: 2%;
-   left: 17%;
- 
-   
-}
-.color2{
-   color: black;
-   text-decoration: none;
-   font-size: 15px;
-}
-.color2:hover{
-   color: red;
-   text-decoration: underline rgb(111, 191, 220);
-
-}
-.main2{
-   font-size: 20px;
-}
-.li3{
-  margin:1px;
-   list-style-type: none;
-   text-decoration: none;
-   color: black;
-   
-}
-
-.position3{
-   position:absolute;
-   top: 2%;
-   left: 35%;
-   right: 0;
-   
-}
-.color3{
-   color: black;
-   text-decoration: none;
-   font-size: 15px;
-}
-.color3:hover{
-   color: red;
-   text-decoration: underline rgb(111, 191, 220);
-
-}
-.main3{
-   font-size: 20px;
-}
-.li4{
-  margin:1px;
-   list-style-type: none;
-   text-decoration: none;
-   color: black;
-   
-}
-
-.position4{
-   position:absolute;
-   top: 2%;
-   left: 48%;
-}
-.color4{
-   color: black;
-   text-decoration: none;
-   font-size: 15px;
-}
-.color4:hover{
-   color: red;
-   text-decoration: underline rgb(111, 191, 220);
-
-}
-.main4{
-   font-size: 20px;
-}
-
+.ul12{
+  position: absolute;
+  left: 40%;
+   top: 10%;
+   list-style: none;
+   color: #000000;
+  
+  }
+  .heading2{
+    color: #000000;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  .subheading2{
+    color: #000000;
+    text-decoration: none;
+  }
+  .ul13{
+    position: absolute;
+    left: 60%;
+     top: 10%;
+     list-style: none;
+     color: #000000;
+    
+    }
+    .heading3{
+      color: #000000;
+      text-decoration: none;
+      font-size: 20px;
+    }
+    .subheading3{
+      color: #000000;
+      text-decoration: none;
+    }
+  
